@@ -209,9 +209,14 @@
     }
   ]
 },
-"6" : {"day": "6"  , "date": "2024-10-6" , "weekday":"پنج شنبه", "isvacation": true ,
+"6" : {"day": "6"  , "date": "2024-10-6" , "weekday":"پنج شنبه", "isvacation": false ,
 "selectedItem": {},                  
-"dishes": [] , 
+"dishes": [
+  {
+    "id": 99999,
+    "title": "غذای روز",
+    "description": "غذای سرو شده در روز پنجشنبه"
+  }] , 
 "drink": []},
 "7" : {"day": "7"  , "date": "2024-10-7" , "weekday":"جمعه", "isvacation": true ,   
 "selectedItem": {},              
@@ -412,10 +417,15 @@
   }
 ]
 },
-"13" : {"day": "13"  , "date": "2024-10-13" , "weekday":"پنج شنبه", "isvacation": true ,
+"13" : {"day": "13"  , "date": "2024-10-13" , "weekday":"پنج شنبه", "isvacation": false ,
 "selectedItem": {},                
-"dishes": [] , 
-"drink": []},
+"dishes": [
+  {
+    "id": 99999,
+    "title": "غذای روز",
+    "description": "غذای سرو شده در روز پنجشنبه"
+  }
+] , "drink": []},
 "14" : {"day": "14"  , "date": "2024-10-14" , "weekday":"جمعه", "isvacation": true ,   
 "selectedItem": {},
               
@@ -630,10 +640,15 @@
   }
 ]
 },
-"20" : {"day": "20"  , "date": "2024-10-20" , "weekday":"پنج شنبه", "isvacation": true ,
+"20" : {"day": "20"  , "date": "2024-10-20" , "weekday":"پنج شنبه", "isvacation": false ,
 "selectedItem": {},           
-"dishes": [] , 
-"drink": []},
+"dishes": [
+  {
+    "id": 99999,
+    "title": "غذای روز",
+    "description": "غذای سرو شده در روز پنجشنبه"
+  }
+] , "drink": []},
 "21" : {"day": "21"  , "date": "2024-10-21" , "weekday":"جمعه", "isvacation": true ,   
 "selectedItem": {},     
 "dishes": [] , 
@@ -833,11 +848,16 @@
   }
 ]
 },
-"27" : {"day": "27"  , "date": "2024-10-27" , "weekday":"پنج شنبه", "isvacation": true ,
+"27" : {"day": "27"  , "date": "2024-10-27" , "weekday":"پنج شنبه", "isvacation": false ,
 "selectedItem": {},
             
-"dishes": [] , 
-"drink": []
+"dishes": [
+  {
+    "id": 99999,
+    "title": "غذای روز",
+    "description": "غذای سرو شده در روز پنجشنبه"
+  }
+] , "drink": []
 },
 "28" : {"day": "28"  , "date": "2024-10-28" , "weekday":"جمعه", "isvacation": true ,
 "selectedItem": {},
@@ -1028,7 +1048,6 @@
           }
         ]
       },
-
       "3" : {"day": "3"  , "date": "2024-10-3" , "weekday":"دوشنبه", "isvacation": false ,   
       "selectedItem": {"dishid":"9" , "dishtitle": "کوکو" , "drinkid": "1", "drinktitle": "آب"},
       "dishes": [
@@ -1066,8 +1085,7 @@
     
        }
      ]
-    },
-    
+       },
       "4" : {"day": "4"  , "date": "2024-10-4" , "weekday":"سه شنبه", "isvacation": false ,
       "selectedItem": {"dishid":"13" , "dishtitle": "شامی" , "drinkid": "1", "drinktitle": "آب"},
         
@@ -1271,7 +1289,6 @@
           }
         ]
       },
-
       "10" : {"day": "10"  , "date": "2024-10-10" , "weekday":"دوشنبه", "isvacation": false ,   
       "selectedItem": {"dishid":"9" , "dishtitle": "کوکو" , "drinkid": "1", "drinktitle": "آب"},
       "dishes": [
@@ -1309,8 +1326,7 @@
     
        }
      ]
-    },
-    
+    },  
       "11" : {"day": "11"  , "date": "2024-10-11" , "weekday":"سه شنبه", "isvacation": false ,
       "selectedItem": {"dishid":"13" , "dishtitle": "شامی" , "drinkid": "1", "drinktitle": "آب"},
         
@@ -2266,3 +2282,5 @@
     }
   ]
 }
+
+
