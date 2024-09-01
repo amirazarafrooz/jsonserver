@@ -1,9 +1,2268 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "user": [
+    {
+      "id": "1",
+      "name": "امیرحسین"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "userData": [
+    {
+      "id": "1",
+      "user": 1,
+      "chooseDishes": []
+    }
   ],
-  "profile": { "name": "typicode" }
+  "test" : {
+"1" : {"day": "1"  ,"date": "2024-10-1" ,"weekday":"شنبه","isvacation": false ,
+  "selectedItem": {},
+     "dishes": [
+       {
+      "id": "1",
+      "title": "قیمه",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 2,
+      "title": "قرمه سبزی",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 3,
+      "title": "سالاد الویه",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 4,
+      "title": "مرغ",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    }] , 
+    "drink": [
+      {
+        "id": "1",
+        "title": "آب",
+        "description": "350 سی سی آب معدنی",
+        "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+      },
+      {
+        "id": "2",
+        "title": "نوشابه",
+        "description": "250 سی سی نوشابه",
+        "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+      }
+    ]
+},
+"2" : {"day": "2"  , "date": "2024-10-2" , "weekday":"یکشنبه", "isvacation": false ,
+"selectedItem": {},
+     "dishes": [
+      {
+        "id": 5,
+        "title": "شوید پلو با ماهی",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 6,
+        "title": "آش",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 7,
+        "title": "آبگوشت",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 8,
+        "title": "دلمه",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      }] , 
+      "drink": [
+        {
+          "id": "1",
+          "title": "آب",
+          "description": "350 سی سی آب معدنی",
+          "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+  
+        },
+        {
+          "id": "2",
+          "title": "نوشابه",
+          "description": "250 سی سی نوشابه",
+          "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+        }
+      ]
+},
+"3" : {"day": "3"  , "date": "2024-10-3" , "weekday":"دوشنبه", "isvacation": false ,   
+"selectedItem": {},
+  "dishes": [
+    {
+      "id": 9,
+      "title": "کوکو",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 10,
+      "title": "خوراک",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 11,
+      "title": "کباب",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id":12,
+      "title": "جوجه",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    }] , 
+    "drink": [
+      {
+        "id": "1",
+        "title": "آب",
+        "description": "350 سی سی آب معدنی",
+        "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+      },
+      {
+        "id": "2",
+        "title": "نوشابه",
+        "description": "250 سی سی نوشابه",
+        "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+      }
+    ]
+},
+"4" : {"day": "4"  , "date": "2024-10-4" , "weekday":"سه شنبه", "isvacation": false ,
+"selectedItem": {},
+"dishes": [
+  {
+    "id":13,
+    "title": "شامی",
+    "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+  },
+  {
+    "id": 14,
+    "title": "کوکو سبزی",
+    "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+  },
+  {
+    "id": 15,
+    "title": "شیشلیک",
+    "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+  },
+  {
+    "id":16,
+    "title": "پیتزا",
+    "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+  }] , 
+  "drink": [
+    {
+      "id": "1",
+      "title": "آب",
+      "description": "350 سی سی آب معدنی",
+      "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+    },
+    {
+      "id": "2",
+      "title": "نوشابه",
+      "description": "250 سی سی نوشابه",
+      "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+    }
+  ]
+},
+"5" : {"day": "5"  , "date": "2024-10-5" , "weekday":"چهار شنبه", "isvacation": false ,   
+"selectedItem": {},
+                
+"dishes": [
+  {
+    "id": 17,
+    "title": "قیمه",
+    "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+  },
+  {
+    "id": 18,
+    "title": "قرمه سبزی",
+    "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+  },
+  {
+    "id": 19,
+    "title": "سالاد الویه",
+    "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+  },
+  {
+    "id": 20,
+    "title": "مرغ",
+    "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+  }] , 
+  "drink": [
+    {
+      "id": "1",
+      "title": "آب",
+      "description": "350 سی سی آب معدنی",
+      "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+    },
+    {
+      "id": "2",
+      "title": "نوشابه",
+      "description": "250 سی سی نوشابه",
+      "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+    }
+  ]
+},
+"6" : {"day": "6"  , "date": "2024-10-6" , "weekday":"پنج شنبه", "isvacation": true ,
+"selectedItem": {},                  
+"dishes": [] , 
+"drink": []},
+"7" : {"day": "7"  , "date": "2024-10-7" , "weekday":"جمعه", "isvacation": true ,   
+"selectedItem": {},              
+"dishes": [] , 
+"drink": []},
+"8" : {"day": "8"  ,"date": "2024-10-8" ,"weekday":"شنبه","isvacation": false ,
+"selectedItem": {},
+   "dishes": [
+     {
+    "id": "1",
+    "title": "قیمه",
+    "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+  },
+  {
+    "id": 2,
+    "title": "قرمه سبزی",
+    "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+  },
+  {
+    "id": 3,
+    "title": "سالاد الویه",
+    "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+  },
+  {
+    "id": 4,
+    "title": "مرغ",
+    "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+  }] , 
+  "drink": [
+    {
+      "id": "1",
+      "title": "آب",
+      "description": "350 سی سی آب معدنی",
+      "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+    },
+    {
+      "id": "2",
+      "title": "نوشابه",
+      "description": "250 سی سی نوشابه",
+      "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+    }
+  ]
+},
+"9" : {"day": "9"  , "date": "2024-10-9" , "weekday":"یکشنبه", "isvacation": false ,
+"selectedItem": {},
+   "dishes": [
+    {
+      "id": 5,
+      "title": "شوید پلو با ماهی",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 6,
+      "title": "آش",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 7,
+      "title": "آبگوشت",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 8,
+      "title": "دلمه",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    }] , 
+    "drink": [
+      {
+        "id": "1",
+        "title": "آب",
+        "description": "350 سی سی آب معدنی",
+        "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+  
+      },
+      {
+        "id": "2",
+        "title": "نوشابه",
+        "description": "250 سی سی نوشابه",
+        "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+      }
+    ]
+},
+"10" : {"day": "10"  , "date": "2024-10-10" , "weekday":"دوشنبه", "isvacation": false ,   
+"selectedItem": {},
+"dishes": [
+  {
+    "id": 9,
+    "title": "کوکو",
+    "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+  },
+  {
+    "id": 10,
+    "title": "خوراک",
+    "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+  },
+  {
+    "id": 11,
+    "title": "کباب",
+    "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+  },
+  {
+    "id":12,
+    "title": "جوجه",
+    "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+  }] , 
+  "drink": [
+    {
+      "id": "1",
+      "title": "آب",
+      "description": "350 سی سی آب معدنی",
+      "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+    },
+    {
+      "id": "2",
+      "title": "نوشابه",
+      "description": "250 سی سی نوشابه",
+      "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+    }
+  ]
+},
+"11" : {"day": "11"  , "date": "2024-10-11" , "weekday":"سه شنبه", "isvacation": false ,
+"selectedItem": {},
+"dishes": [
+{
+  "id":13,
+  "title": "شامی",
+  "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+  "id": 14,
+  "title": "کوکو سبزی",
+  "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+  "id": 15,
+  "title": "شیشلیک",
+  "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+  "id":16,
+  "title": "پیتزا",
+  "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+}] , 
+"drink": [
+  {
+    "id": "1",
+    "title": "آب",
+    "description": "350 سی سی آب معدنی",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+  },
+  {
+    "id": "2",
+    "title": "نوشابه",
+    "description": "250 سی سی نوشابه",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+  }
+]
+},
+"12" : {"day": "12"  , "date": "2024-10-12" , "weekday":"چهار شنبه", "isvacation": false ,   
+"selectedItem": {},              
+"dishes": [
+{
+  "id": 17,
+  "title": "قیمه",
+  "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+  "id": 18,
+  "title": "قرمه سبزی",
+  "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+  "id": 19,
+  "title": "سالاد الویه",
+  "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+  "id": 20,
+  "title": "مرغ",
+  "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+}] , 
+"drink": [
+  {
+    "id": "1",
+    "title": "آب",
+    "description": "350 سی سی آب معدنی",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+  },
+  {
+    "id": "2",
+    "title": "نوشابه",
+    "description": "250 سی سی نوشابه",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+  }
+]
+},
+"13" : {"day": "13"  , "date": "2024-10-13" , "weekday":"پنج شنبه", "isvacation": true ,
+"selectedItem": {},                
+"dishes": [] , 
+"drink": []},
+"14" : {"day": "14"  , "date": "2024-10-14" , "weekday":"جمعه", "isvacation": true ,   
+"selectedItem": {},
+              
+"dishes": [] , 
+"drink": [
+  {
+    "id": "1",
+    "title": "آب",
+    "description": "350 سی سی آب معدنی",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+  },
+  {
+    "id": "2",
+    "title": "نوشابه",
+    "description": "250 سی سی نوشابه",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+  }
+]},
+"15" : {"day": "15"  ,"date": "2024-10-15" ,"weekday":"شنبه","isvacation": false ,
+"selectedItem": {},
+"dishes": [
+  {
+ "id": "1",
+ "title": "قیمه",
+ "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+ "id": 2,
+ "title": "قرمه سبزی",
+ "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+ "id": 3,
+ "title": "سالاد الویه",
+ "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+ "id": 4,
+ "title": "مرغ",
+ "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+}] , 
+"drink": [
+  {
+    "id": "1",
+    "title": "آب",
+    "description": "350 سی سی آب معدنی",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+  },
+  {
+    "id": "2",
+    "title": "نوشابه",
+    "description": "250 سی سی نوشابه",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+  }
+]
+},
+"16" : {"day": "16"  , "date": "2024-10-16" , "weekday":"یکشنبه", "isvacation": false ,
+"selectedItem": {},
+"dishes": [
+ {
+   "id": 5,
+   "title": "شوید پلو با ماهی",
+   "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+ },
+ {
+   "id": 6,
+   "title": "آش",
+   "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+ },
+ {
+   "id": 7,
+   "title": "آبگوشت",
+   "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+ },
+ {
+   "id": 8,
+   "title": "دلمه",
+   "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+ }] , 
+ "drink": [
+  {
+    "id": "1",
+    "title": "آب",
+    "description": "350 سی سی آب معدنی",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+  },
+  {
+    "id": "2",
+    "title": "نوشابه",
+    "description": "250 سی سی نوشابه",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+  }
+]
+},
+"17" : {"day": "17"  , "date": "2024-10-17" , "weekday":"دوشنبه", "isvacation": false ,   
+"selectedItem": {},
+"dishes": [
+{
+ "id": 9,
+ "title": "کوکو",
+ "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+ "id": 10,
+ "title": "خوراک",
+ "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+ "id": 11,
+ "title": "کباب",
+ "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+ "id":12,
+ "title": "جوجه",
+ "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+}] , 
+"drink": [
+  {
+    "id": "1",
+    "title": "آب",
+    "description": "350 سی سی آب معدنی",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+  },
+  {
+    "id": "2",
+    "title": "نوشابه",
+    "description": "250 سی سی نوشابه",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+  }
+]
+},
+"18" : {"day": "18"  , "date": "2024-10-18" , "weekday":"سه شنبه", "isvacation": false ,
+"selectedItem": {},
+"dishes": [
+{
+"id":13,
+"title": "شامی",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id": 14,
+"title": "کوکو سبزی",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id": 15,
+"title": "شیشلیک",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id":16,
+"title": "پیتزا",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+}] , 
+"drink": [
+  {
+    "id": "1",
+    "title": "آب",
+    "description": "350 سی سی آب معدنی",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+  },
+  {
+    "id": "2",
+    "title": "نوشابه",
+    "description": "250 سی سی نوشابه",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+  }
+]
+},
+"19" : {"day": "19"  , "date": "2024-10-19" , "weekday":"چهار شنبه", "isvacation": false ,   
+"selectedItem": {},         
+"dishes": [
+{
+"id": 17,
+"title": "قیمه",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id": 18,
+"title": "قرمه سبزی",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id": 19,
+"title": "سالاد الویه",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id": 20,
+"title": "مرغ",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+}] , 
+"drink": [
+  {
+    "id": "1",
+    "title": "آب",
+    "description": "350 سی سی آب معدنی",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+  },
+  {
+    "id": "2",
+    "title": "نوشابه",
+    "description": "250 سی سی نوشابه",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+  }
+]
+},
+"20" : {"day": "20"  , "date": "2024-10-20" , "weekday":"پنج شنبه", "isvacation": true ,
+"selectedItem": {},           
+"dishes": [] , 
+"drink": []},
+"21" : {"day": "21"  , "date": "2024-10-21" , "weekday":"جمعه", "isvacation": true ,   
+"selectedItem": {},     
+"dishes": [] , 
+"drink": []},
+"22" : {"day": "22"  ,"date": "2024-10-22" ,"weekday":"شنبه","isvacation": false ,
+"selectedItem": {},
+"dishes": [
+{
+"id": "1",
+"title": "قیمه",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id": 2,
+"title": "قرمه سبزی",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id": 3,
+"title": "سالاد الویه",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id": 4,
+"title": "مرغ",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+}] , 
+"drink": [
+  {
+    "id": "1",
+    "title": "آب",
+    "description": "350 سی سی آب معدنی",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+  },
+  {
+    "id": "2",
+    "title": "نوشابه",
+    "description": "250 سی سی نوشابه",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+  }
+]
+},
+"23" : {"day": "23"  , "date": "2024-10-23" , "weekday":"یکشنبه", "isvacation": false ,
+"selectedItem": {},
+"dishes": [
+{
+ "id": 5,
+ "title": "شوید پلو با ماهی",
+ "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+ "id": 6,
+ "title": "آش",
+ "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+ "id": 7,
+ "title": "آبگوشت",
+ "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+ "id": 8,
+ "title": "دلمه",
+ "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+}] , 
+"drink": [
+  {
+    "id": "1",
+    "title": "آب",
+    "description": "350 سی سی آب معدنی",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+  },
+  {
+    "id": "2",
+    "title": "نوشابه",
+    "description": "250 سی سی نوشابه",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+  }
+]
+},
+"24" : {"day": "24"  , "date": "2024-10-24" , "weekday":"دوشنبه", "isvacation": false ,   
+"selectedItem": {},
+"dishes": [
+{
+"id": 9,
+"title": "کوکو",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id": 10,
+"title": "خوراک",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id": 11,
+"title": "کباب",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id":12,
+"title": "جوجه",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+}] , 
+"drink": [
+  {
+    "id": "1",
+    "title": "آب",
+    "description": "350 سی سی آب معدنی",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+  },
+  {
+    "id": "2",
+    "title": "نوشابه",
+    "description": "250 سی سی نوشابه",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+  }
+]
+},
+"25" : {"day": "25"  , "date": "2024-10-25" , "weekday":"سه شنبه", "isvacation": false ,
+"selectedItem": {},
+"dishes": [
+{
+"id":13,
+"title": "شامی",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id": 14,
+"title": "کوکو سبزی",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id": 15,
+"title": "شیشلیک",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id":16,
+"title": "پیتزا",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+}] , 
+"drink": [
+  {
+    "id": "1",
+    "title": "آب",
+    "description": "350 سی سی آب معدنی",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+  },
+  {
+    "id": "2",
+    "title": "نوشابه",
+    "description": "250 سی سی نوشابه",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+  }
+]
+},
+"26" : {"day": "26"  , "date": "2024-10-26" , "weekday":"چهار شنبه", "isvacation": false ,   
+"selectedItem": {},     
+"dishes": [
+{
+"id": 17,
+"title": "قیمه",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id": 18,
+"title": "قرمه سبزی",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id": 19,
+"title": "سالاد الویه",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id": 20,
+"title": "مرغ",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+}] , 
+"drink": [
+  {
+    "id": "1",
+    "title": "آب",
+    "description": "350 سی سی آب معدنی",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+  },
+  {
+    "id": "2",
+    "title": "نوشابه",
+    "description": "250 سی سی نوشابه",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+  }
+]
+},
+"27" : {"day": "27"  , "date": "2024-10-27" , "weekday":"پنج شنبه", "isvacation": true ,
+"selectedItem": {},
+            
+"dishes": [] , 
+"drink": []
+},
+"28" : {"day": "28"  , "date": "2024-10-28" , "weekday":"جمعه", "isvacation": true ,
+"selectedItem": {},
+            
+"dishes": [] , 
+"drink": []
+},
+"29" : {"day": "29"  , "date": "2024-10-29" , "weekday":"شنبه", "isvacation": false ,   
+"selectedItem": {},       
+"dishes": [
+{
+"id": 17,
+"title": "قیمه",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id": 18,
+"title": "قرمه سبزی",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id": 19,
+"title": "سالاد الویه",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id": 20,
+"title": "مرغ",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+}] , 
+"drink": [
+  {
+    "id": "1",
+    "title": "آب",
+    "description": "350 سی سی آب معدنی",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+  },
+  {
+    "id": "2",
+    "title": "نوشابه",
+    "description": "250 سی سی نوشابه",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+  }
+]
+},
+"30" : {"day": "30"  , "date": "2024-10-30" , "weekday":"یکشنبه", "isvacation": false ,
+"selectedItem": {},
+            
+"dishes": [
+{
+"id": 21,
+"title": "قیمه",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id": 22,
+"title": "قرمه سبزی",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id": 23,
+"title": "سالاد الویه",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+},
+{
+"id": 24,
+"title": "مرغ",
+"description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+}] , 
+"drink": [
+  {
+    "id": "1",
+    "title": "آب",
+    "description": "350 سی سی آب معدنی",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+  },
+  {
+    "id": "2",
+    "title": "نوشابه",
+    "description": "250 سی سی نوشابه",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+  }
+]
+},
+"31" : {"day": "31"  , "date": "2024-10-31" , "weekday":"دوشنبه", "isvacation": false ,
+"selectedItem": {},
+            
+"dishes": [] , 
+"drink": [
+  {
+    "id": "1",
+    "title": "آب",
+    "description": "350 سی سی آب معدنی",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+  },
+  {
+    "id": "2",
+    "title": "نوشابه",
+    "description": "250 سی سی نوشابه",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+  }
+]}
+  },
+  "userdishplan": {
+  
+      "1" : {
+        "day": "1"  ,
+         "date": "2024-10-1" ,
+          "weekday":"شنبه",
+           "isvacation": false ,
+    "selectedItem": {"dishid":"1" , "dishtitle": "قیمه" , "drinkid": "1", "drinktitle": "آب"},
+         "dishes": [
+           {
+          "id": "1",
+          "title": "قیمه",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        },
+        {
+          "id": 2,
+          "title": "قرمه سبزی",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        },
+        {
+          "id": 3,
+          "title": "سالاد الویه",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        },
+        {
+          "id": 4,
+          "title": "مرغ",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        }] , 
+        "drink": [
+          {
+            "id": "1",
+            "title": "آب",
+            "description": "350 سی سی آب معدنی"
+    
+          },
+          {
+            "id": "2",
+            "title": "نوشابه",
+            "description": "250 سی سی نوشابه"
+    
+          }
+        ]
+      },  
+      "2" : {"day": "2"  , "date": "2024-10-2" , "weekday":"یکشنبه", "isvacation": false ,
+      "selectedItem": {"dishid":"6" , "dishtitle": "آش" , "drinkid": "2", "drinktitle": "نوشابه"},
+
+    
+         "dishes": [
+          {
+            "id": 5,
+            "title": "شوید پلو با ماهی",
+            "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+          },
+          {
+            "id": 6,
+            "title": "آش",
+            "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+          },
+          {
+            "id": 7,
+            "title": "آبگوشت",
+            "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+          },
+          {
+            "id": 8,
+            "title": "دلمه",
+            "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+          }] , 
+        "drink": [
+          {
+            "id": "1",
+            "title": "آب",
+            "description": "350 سی سی آب معدنی"
+    
+          },
+          {
+            "id": "2",
+            "title": "نوشابه",
+            "description": "250 سی سی نوشابه"
+    
+          }
+        ]
+      },
+
+      "3" : {"day": "3"  , "date": "2024-10-3" , "weekday":"دوشنبه", "isvacation": false ,   
+      "selectedItem": {"dishid":"9" , "dishtitle": "کوکو" , "drinkid": "1", "drinktitle": "آب"},
+      "dishes": [
+        {
+          "id": 9,
+          "title": "کوکو",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        },
+        {
+          "id": 10,
+          "title": "خوراک",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        },
+        {
+          "id": 11,
+          "title": "کباب",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        },
+        {
+          "id":12,
+          "title": "جوجه",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        }] , 
+     "drink": [
+       {
+         "id": "1",
+         "title": "آب",
+         "description": "350 سی سی آب معدنی"
+    
+       },
+       {
+         "id": "2",
+         "title": "نوشابه",
+         "description": "250 سی سی نوشابه"
+    
+       }
+     ]
+    },
+    
+      "4" : {"day": "4"  , "date": "2024-10-4" , "weekday":"سه شنبه", "isvacation": false ,
+      "selectedItem": {"dishid":"13" , "dishtitle": "شامی" , "drinkid": "1", "drinktitle": "آب"},
+        
+    
+    "dishes": [
+      {
+        "id":13,
+        "title": "شامی",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 14,
+        "title": "کوکو سبزی",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 15,
+        "title": "شیشلیک",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id":16,
+        "title": "پیتزا",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      }] , 
+    "drink": [
+     {
+       "id": "1",
+       "title": "آب",
+       "description": "350 سی سی آب معدنی"
+    
+     },
+     {
+       "id": "2",
+       "title": "نوشابه",
+       "description": "250 سی سی نوشابه"
+    
+     }
+    ]
+    },
+      "5" : {"day": "5"  , "date": "2024-10-5" , "weekday":"چهار شنبه", "isvacation": false ,   
+      "selectedItem": {"dishid":"17" , "dishtitle": "قیمه" , "drinkid": "1", "drinktitle": "آب"},
+                    
+    "dishes": [
+      {
+        "id": 17,
+        "title": "قیمه",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 18,
+        "title": "قرمه سبزی",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 19,
+        "title": "سالاد الویه",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 20,
+        "title": "مرغ",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      }] , 
+    "drink": [
+     {
+       "id": "1",
+       "title": "آب",
+       "description": "350 سی سی آب معدنی"
+    
+     },
+     {
+       "id": "2",
+       "title": "نوشابه",
+       "description": "250 سی سی نوشابه"
+    
+     }
+    ]
+    },
+      "6" : {"day": "6"  , "date": "2024-10-6" , "weekday":"پنج شنبه", "isvacation": false ,
+      "selectedItem": {"dishid":"22" , "dishtitle": "مرغ" , "drinkid": "1", "drinktitle": "آب"},
+                       
+    "dishes": [
+      {
+        "id": 21,
+        "title": "قیمه",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 22,
+        "title": "قرمه سبزی",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 23,
+        "title": "سالاد الویه",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 24,
+        "title": "مرغ",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      }] , 
+    "drink": [
+     {
+       "id": "1",
+       "title": "آب",
+       "description": "350 سی سی آب معدنی"
+    
+     },
+     {
+       "id": "2",
+       "title": "نوشابه",
+       "description": "250 سی سی نوشابه"
+    
+     }
+    ]
+    },
+      "7" : {"day": "7"  , "date": "2024-10-7" , "weekday":"جمعه", "isvacation": true ,   
+    "selectedItem": {},
+                    
+    "dishes": [] , 
+    "drink": []
+    },
+   
+    "8" : {"day": "8"  ,"date": "2024-10-8" ,"weekday":"شنبه", "isvacation": false ,
+    "selectedItem": {"dishid":"1" , "dishtitle": "قیمه" , "drinkid": "1", "drinktitle": "آب"},
+         "dishes": [
+           {
+          "id": "1",
+          "title": "قیمه",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        },
+        {
+          "id": 2,
+          "title": "قرمه سبزی",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        },
+        {
+          "id": 3,
+          "title": "سالاد الویه",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        },
+        {
+          "id": 4,
+          "title": "مرغ",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        }] , 
+        "drink": [
+          {
+            "id": "1",
+            "title": "آب",
+            "description": "350 سی سی آب معدنی"
+    
+          },
+          {
+            "id": "2",
+            "title": "نوشابه",
+            "description": "250 سی سی نوشابه"
+    
+          }
+        ]
+      },  
+      "9" : {"day": "9"  , "date": "2024-10-9" , "weekday":"یکشنبه", "isvacation": false ,
+      "selectedItem": {"dishid":"6" , "dishtitle": "آش" , "drinkid": "2", "drinktitle": "نوشابه"},
+
+    
+         "dishes": [
+          {
+            "id": 5,
+            "title": "شوید پلو با ماهی",
+            "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+          },
+          {
+            "id": 6,
+            "title": "آش",
+            "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+          },
+          {
+            "id": 7,
+            "title": "آبگوشت",
+            "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+          },
+          {
+            "id": 8,
+            "title": "دلمه",
+            "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+          }] , 
+        "drink": [
+          {
+            "id": "1",
+            "title": "آب",
+            "description": "350 سی سی آب معدنی"
+    
+          },
+          {
+            "id": "2",
+            "title": "نوشابه",
+            "description": "250 سی سی نوشابه"
+    
+          }
+        ]
+      },
+
+      "10" : {"day": "10"  , "date": "2024-10-10" , "weekday":"دوشنبه", "isvacation": false ,   
+      "selectedItem": {"dishid":"9" , "dishtitle": "کوکو" , "drinkid": "1", "drinktitle": "آب"},
+      "dishes": [
+        {
+          "id": 9,
+          "title": "کوکو",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        },
+        {
+          "id": 10,
+          "title": "خوراک",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        },
+        {
+          "id": 11,
+          "title": "کباب",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        },
+        {
+          "id":12,
+          "title": "جوجه",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        }] , 
+     "drink": [
+       {
+         "id": "1",
+         "title": "آب",
+         "description": "350 سی سی آب معدنی"
+    
+       },
+       {
+         "id": "2",
+         "title": "نوشابه",
+         "description": "250 سی سی نوشابه"
+    
+       }
+     ]
+    },
+    
+      "11" : {"day": "11"  , "date": "2024-10-11" , "weekday":"سه شنبه", "isvacation": false ,
+      "selectedItem": {"dishid":"13" , "dishtitle": "شامی" , "drinkid": "1", "drinktitle": "آب"},
+        
+    
+    "dishes": [
+      {
+        "id":13,
+        "title": "شامی",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 14,
+        "title": "کوکو سبزی",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 15,
+        "title": "شیشلیک",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id":16,
+        "title": "پیتزا",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      }] , 
+    "drink": [
+     {
+       "id": "1",
+       "title": "آب",
+       "description": "350 سی سی آب معدنی"
+    
+     },
+     {
+       "id": "2",
+       "title": "نوشابه",
+       "description": "250 سی سی نوشابه"
+    
+     }
+    ]
+    },
+      "12" : {"day": "12"  , "date": "2024-10-12" , "weekday":"چهار شنبه", "isvacation": false ,   
+      "selectedItem": {"dishid":"17" , "dishtitle": "قیمه" , "drinkid": "1", "drinktitle": "آب"},
+                    
+    "dishes": [
+      {
+        "id": 17,
+        "title": "قیمه",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 18,
+        "title": "قرمه سبزی",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 19,
+        "title": "سالاد الویه",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 20,
+        "title": "مرغ",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      }] , 
+    "drink": [
+     {
+       "id": "1",
+       "title": "آب",
+       "description": "350 سی سی آب معدنی"
+    
+     },
+     {
+       "id": "2",
+       "title": "نوشابه",
+       "description": "250 سی سی نوشابه"
+    
+     }
+    ]
+    },
+      "13" : {"day": "13"  , "date": "2024-10-13" , "weekday":"پنج شنبه", "isvacation": false ,
+      "selectedItem": {"dishid":"22" , "dishtitle": "مرغ" , "drinkid": "1", "drinktitle": "آب"},
+                       
+    "dishes": [
+      {
+        "id": 21,
+        "title": "قیمه",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 22,
+        "title": "قرمه سبزی",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 23,
+        "title": "سالاد الویه",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 24,
+        "title": "مرغ",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      }] , 
+    "drink": [
+     {
+       "id": "1",
+       "title": "آب",
+       "description": "350 سی سی آب معدنی"
+    
+     },
+     {
+       "id": "2",
+       "title": "نوشابه",
+       "description": "250 سی سی نوشابه"
+    
+     }
+    ]
+    },
+      "14" : {"day": "14"  , "date": "2024-10-14" , "weekday":"جمعه", "isvacation": true ,   
+    "selectedItem": {},
+                    
+    "dishes": [] , 
+    "drink": []
+    }, 
+    "15" : {"day": "15"  ,"date": "2024-10-15" , "weekday":"شنبه", "isvacation": false ,
+  "selectedItem": {"dishid":"1" , "dishtitle": "قیمه" , "drinkid": "1", "drinktitle": "آب"},
+       "dishes": [
+         {
+        "id": "1",
+        "title": "قیمه",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 2,
+        "title": "قرمه سبزی",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 3,
+        "title": "سالاد الویه",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 4,
+        "title": "مرغ",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      }] , 
+      "drink": [
+        {
+          "id": "1",
+          "title": "آب",
+          "description": "350 سی سی آب معدنی"
+  
+        },
+        {
+          "id": "2",
+          "title": "نوشابه",
+          "description": "250 سی سی نوشابه"
+  
+        }
+      ]
+    },  
+    "16" : {"day": "16"  , "date": "2024-10-16" , "weekday":"یکشنبه", "isvacation": false ,
+    "selectedItem": {"dishid":"6" , "dishtitle": "آش" , "drinkid": "2", "drinktitle": "نوشابه"},
+
+  
+       "dishes": [
+        {
+          "id": 5,
+          "title": "شوید پلو با ماهی",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        },
+        {
+          "id": 6,
+          "title": "آش",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        },
+        {
+          "id": 7,
+          "title": "آبگوشت",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        },
+        {
+          "id": 8,
+          "title": "دلمه",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        }] , 
+      "drink": [
+        {
+          "id": "1",
+          "title": "آب",
+          "description": "350 سی سی آب معدنی"
+  
+        },
+        {
+          "id": "2",
+          "title": "نوشابه",
+          "description": "250 سی سی نوشابه"
+  
+        }
+      ]
+    },
+
+    "17" : {"day": "17"  , "date": "2024-10-17" , "weekday":"دوشنبه", "isvacation": false ,   
+    "selectedItem": {"dishid":"9" , "dishtitle": "کوکو" , "drinkid": "1", "drinktitle": "آب"},
+    "dishes": [
+      {
+        "id": 9,
+        "title": "کوکو",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 10,
+        "title": "خوراک",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 11,
+        "title": "کباب",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id":12,
+        "title": "جوجه",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      }] , 
+   "drink": [
+     {
+       "id": "1",
+       "title": "آب",
+       "description": "350 سی سی آب معدنی"
+  
+     },
+     {
+       "id": "2",
+       "title": "نوشابه",
+       "description": "250 سی سی نوشابه"
+  
+     }
+   ]
+  },
+  
+    "18" : {"day": "18"  , "date": "2024-10-18" , "weekday":"سه شنبه", "isvacation": false ,
+    "selectedItem": {"dishid":"13" , "dishtitle": "شامی" , "drinkid": "1", "drinktitle": "آب"},
+      
+  
+  "dishes": [
+    {
+      "id":13,
+      "title": "شامی",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 14,
+      "title": "کوکو سبزی",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 15,
+      "title": "شیشلیک",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id":16,
+      "title": "پیتزا",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    }] , 
+  "drink": [
+   {
+     "id": "1",
+     "title": "آب",
+     "description": "350 سی سی آب معدنی"
+  
+   },
+   {
+     "id": "2",
+     "title": "نوشابه",
+     "description": "250 سی سی نوشابه"
+  
+   }
+  ]
+  },
+    "19" : {"day": "19"  , "date": "2024-10-19" , "weekday":"چهار شنبه", "isvacation": false ,   
+    "selectedItem": {"dishid":"17" , "dishtitle": "قیمه" , "drinkid": "1", "drinktitle": "آب"},
+                  
+  "dishes": [
+    {
+      "id": 17,
+      "title": "قیمه",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 18,
+      "title": "قرمه سبزی",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 19,
+      "title": "سالاد الویه",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 20,
+      "title": "مرغ",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    }] , 
+  "drink": [
+   {
+     "id": "1",
+     "title": "آب",
+     "description": "350 سی سی آب معدنی"
+  
+   },
+   {
+     "id": "2",
+     "title": "نوشابه",
+     "description": "250 سی سی نوشابه"
+  
+   }
+  ]
+  },
+    "20" : {"day": "20"  , "date": "2024-10-20" , "weekday":"پنج شنبه", "isvacation": false ,
+    "selectedItem": {"dishid":"22" , "dishtitle": "مرغ" , "drinkid": "1", "drinktitle": "آب"},
+                     
+  "dishes": [
+    {
+      "id": 21,
+      "title": "قیمه",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 22,
+      "title": "قرمه سبزی",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 23,
+      "title": "سالاد الویه",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 24,
+      "title": "مرغ",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    }] , 
+  "drink": [
+   {
+     "id": "1",
+     "title": "آب",
+     "description": "350 سی سی آب معدنی"
+  
+   },
+   {
+     "id": "2",
+     "title": "نوشابه",
+     "description": "250 سی سی نوشابه"
+  
+   }
+  ]
+  },
+    "21" : {"day": "21"  , "date": "2024-10-21" , "weekday":"جمعه", "isvacation": true ,   
+  "selectedItem": {},
+                  
+  "dishes": [] , 
+  "drink": []
+  },
+ 
+  "22" : {"day": "22"  ,"date": "2024-10-22" ,"weekday":"شنبه", "isvacation": false ,
+  "selectedItem": {"dishid":"1" , "dishtitle": "قیمه" , "drinkid": "1", "drinktitle": "آب"},
+       "dishes": [
+         {
+        "id": "1",
+        "title": "قیمه",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 2,
+        "title": "قرمه سبزی",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 3,
+        "title": "سالاد الویه",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 4,
+        "title": "مرغ",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      }] , 
+      "drink": [
+        {
+          "id": "1",
+          "title": "آب",
+          "description": "350 سی سی آب معدنی"
+  
+        },
+        {
+          "id": "2",
+          "title": "نوشابه",
+          "description": "250 سی سی نوشابه"
+  
+        }
+      ]
+    },  
+    "23" : {"day": "23"  , "date": "2024-10-23" , "weekday":"یکشنبه", "isvacation": false ,
+    "selectedItem": {"dishid":"6" , "dishtitle": "آش" , "drinkid": "2", "drinktitle": "نوشابه"},
+
+  
+       "dishes": [
+        {
+          "id": 5,
+          "title": "شوید پلو با ماهی",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        },
+        {
+          "id": 6,
+          "title": "آش",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        },
+        {
+          "id": 7,
+          "title": "آبگوشت",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        },
+        {
+          "id": 8,
+          "title": "دلمه",
+          "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+        }] , 
+      "drink": [
+        {
+          "id": "1",
+          "title": "آب",
+          "description": "350 سی سی آب معدنی"
+  
+        },
+        {
+          "id": "2",
+          "title": "نوشابه",
+          "description": "250 سی سی نوشابه"
+  
+        }
+      ]
+    },
+
+    "24" : {"day": "24"  , "date": "2024-10-24" , "weekday":"دوشنبه", "isvacation": false ,   
+    "selectedItem": {"dishid":"9" , "dishtitle": "کوکو" , "drinkid": "1", "drinktitle": "آب"},
+    "dishes": [
+      {
+        "id": 9,
+        "title": "کوکو",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 10,
+        "title": "خوراک",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 11,
+        "title": "کباب",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id":12,
+        "title": "جوجه",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      }] , 
+   "drink": [
+     {
+       "id": "1",
+       "title": "آب",
+       "description": "350 سی سی آب معدنی"
+  
+     },
+     {
+       "id": "2",
+       "title": "نوشابه",
+       "description": "250 سی سی نوشابه"
+  
+     }
+   ]
+  },
+  
+    "25" : {"day": "25"  , "date": "2024-10-25" , "weekday":"سه شنبه", "isvacation": false ,
+    "selectedItem": {"dishid":"13" , "dishtitle": "شامی" , "drinkid": "1", "drinktitle": "آب"},
+      
+  
+  "dishes": [
+    {
+      "id":13,
+      "title": "شامی",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 14,
+      "title": "کوکو سبزی",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 15,
+      "title": "شیشلیک",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id":16,
+      "title": "پیتزا",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    }] , 
+  "drink": [
+   {
+     "id": "1",
+     "title": "آب",
+     "description": "350 سی سی آب معدنی"
+  
+   },
+   {
+     "id": "2",
+     "title": "نوشابه",
+     "description": "250 سی سی نوشابه"
+  
+   }
+  ]
+  },
+    "26" : {"day": "26"  , "date": "2024-10-26" , "weekday":"چهار شنبه", "isvacation": false ,   
+    "selectedItem": {"dishid":"17" , "dishtitle": "قیمه" , "drinkid": "1", "drinktitle": "آب"},
+                  
+  "dishes": [
+    {
+      "id": 17,
+      "title": "قیمه",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 18,
+      "title": "قرمه سبزی",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 19,
+      "title": "سالاد الویه",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 20,
+      "title": "مرغ",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    }] , 
+  "drink": [
+   {
+     "id": "1",
+     "title": "آب",
+     "description": "350 سی سی آب معدنی"
+  
+   },
+   {
+     "id": "2",
+     "title": "نوشابه",
+     "description": "250 سی سی نوشابه"
+  
+   }
+  ]
+  },
+    "27" : {"day": "27"  , "date": "2024-10-27" , "weekday":"پنج شنبه", "isvacation": false ,
+    "selectedItem": {"dishid":"22" , "dishtitle": "مرغ" , "drinkid": "1", "drinktitle": "آب"},
+                     
+  "dishes": [
+    {
+      "id": 21,
+      "title": "قیمه",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 22,
+      "title": "قرمه سبزی",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 23,
+      "title": "سالاد الویه",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 24,
+      "title": "مرغ",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    }] , 
+  "drink": [
+   {
+     "id": "1",
+     "title": "آب",
+     "description": "350 سی سی آب معدنی"
+  
+   },
+   {
+     "id": "2",
+     "title": "نوشابه",
+     "description": "250 سی سی نوشابه"
+  
+   }
+  ]
+  },
+    "28" : {"day": "28"  , "date": "2024-10-28" , "weekday":"جمعه", "isvacation": true ,   
+  "selectedItem": {},
+                  
+  "dishes": [] , 
+  "drink": []
+  },
+  "29" : {"day": "29"  , "date": "2024-10-29" , "weekday":"شنبه", "isvacation": false ,
+"selectedItem": {"dishid":"1" , "dishtitle": "قیمه" , "drinkid": "1", "drinktitle": "آب"},
+     "dishes": [
+       {
+      "id": "1",
+      "title": "قیمه",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 2,
+      "title": "قرمه سبزی",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 3,
+      "title": "سالاد الویه",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 4,
+      "title": "مرغ",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    }] , 
+    "drink": [
+      {
+        "id": "1",
+        "title": "آب",
+        "description": "350 سی سی آب معدنی"
+
+      },
+      {
+        "id": "2",
+        "title": "نوشابه",
+        "description": "250 سی سی نوشابه"
+
+      }
+    ]
+  },  
+  "30" : {"day": "30"  , "date": "2024-10-30" , "weekday":"یکشنبه", "isvacation": false ,
+  "selectedItem": {"dishid":"6" , "dishtitle": "آش" , "drinkid": "2", "drinktitle": "نوشابه"},
+
+
+     "dishes": [
+      {
+        "id": 5,
+        "title": "شوید پلو با ماهی",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 6,
+        "title": "آش",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 7,
+        "title": "آبگوشت",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      },
+      {
+        "id": 8,
+        "title": "دلمه",
+        "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+      }] , 
+    "drink": [
+      {
+        "id": "1",
+        "title": "آب",
+        "description": "350 سی سی آب معدنی"
+
+      },
+      {
+        "id": "2",
+        "title": "نوشابه",
+        "description": "250 سی سی نوشابه"
+
+      }
+    ]
+  },
+
+  "31" : {"day": "31"  , "date": "2024-10-31" , "weekday":"دوشنبه", "isvacation": false ,   
+  "selectedItem": {"dishid":"9" , "dishtitle": "کوکو" , "drinkid": "1", "drinktitle": "آب"},
+  "dishes": [
+    {
+      "id": 9,
+      "title": "کوکو",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 10,
+      "title": "خوراک",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id": 11,
+      "title": "کباب",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    },
+    {
+      "id":12,
+      "title": "جوجه",
+      "description": "خورش قِیمه یا خورش لپه از غذاهای آشپزی ایرانی است. این خورش در میان ایرانی‌ها و عراقی‌ها غذایی پرطرفدار است"
+    }] , 
+ "drink": [
+   {
+     "id": "1",
+     "title": "آب",
+     "description": "350 سی سی آب معدنی"
+
+   },
+   {
+     "id": "2",
+     "title": "نوشابه",
+     "description": "250 سی سی نوشابه"
+
+   }
+ ]
+}
+  },
+  "dishes": [
+    {
+        "id": 1,
+        "name":"قرمه سبزی"
+    },
+    {
+        "id": 2,
+        "name":"چلو کباب"
+    },
+    {
+        "id": 3,
+        "name":"جلو جوجه کباب"
+    },
+    {
+        "id": 4,
+        "name":"مرغ"
+    },
+    {
+        "id": 5,
+        "name":"ظرف سبزیجات"
+    },
+    {
+        "id": 6,
+        "name":"میرزاقاسمی"
+    },
+    {
+        "id": 7,
+        "name":"قیمه"
+    },
+    {
+        "id": 8,
+        "name":"لوبیا پلو"
+    },
+    {
+        "id": 9,
+        "name":"عدس پلو"
+    },      {
+        "id": 10,
+        "name":"قرمه سبزی"
+    },
+    {
+        "id": 11,
+        "name":"چلو کباب"
+    },
+    {
+        "id": 12,
+        "name":"جلو جوجه کباب"
+    },
+    {
+        "id": 13,
+        "name":"مرغ"
+    },
+    {
+        "id": 14,
+        "name":"ظرف سبزیجات"
+    },
+    {
+        "id": 15,
+        "name":"میرزاقاسمی"
+    },
+    {
+        "id": 16,
+        "name":"قیمه"
+    },
+    {
+        "id": 17,
+        "name":"لوبیا پلو"
+    },
+    {
+        "id": 18,
+        "name":"عدس پلو"
+    },      {
+        "id": 19,
+        "name":"قرمه سبزی"
+    },
+    {
+        "id": 20,
+        "name":"چلو کباب"
+    },
+    {
+        "id": 21,
+        "name":"جلو جوجه کباب"
+    },
+    {
+        "id": 22,
+        "name":"مرغ"
+    },
+    {
+        "id": 23,
+        "name":"ظرف سبزیجات"
+    },
+    {
+        "id": 24,
+        "name":"میرزاقاسمی"
+    },
+    {
+        "id": 25,
+        "name":"قیمه"
+    },
+    {
+        "id": 26,
+        "name":"لوبیا پلو"
+    },
+    {
+        "id": 27,
+        "name":"عدس پلو"
+    },
+    {
+        "id": 28,
+        "name":"چلو کباب"
+    },
+    {
+        "id": 29,
+        "name":"جلو جوجه کباب"
+    },
+    {
+        "id": 30,
+        "name":"مرغ"
+    },
+    {
+        "id": 31,
+        "name":"ظرف سبزیجات"
+    },
+    {
+        "id": 32,
+        "name":"میرزاقاسمی"
+    },
+    {
+        "id": 33,
+        "name":"قیمه"
+    },
+    {
+        "id": 34,
+        "name":"لوبیا پلو"
+    },
+    {
+        "id": 35,
+        "name":"عدس پلو"
+    }
+    
+  ], 
+  "drinks": [
+    {
+        "id":"1",
+        "name": "آب"
+    },
+    {
+        "id":"2",
+        "name": "نوشابه"
+    },
+    {
+        "id":"3",
+        "name": "دوغ"
+    }
+  ],
+  "users": [
+    {
+        "img": "https://avatar.iran.liara.run/public/1",
+        "id": "1",
+        "firstName": "امیر",
+        "lastName": "آذرافروز",
+        "position": "برنامه نویس",
+        "personalCode": "10483",
+        "location": "سعیدی - واحد دوم شمالی",
+        "tell": "2214"
+    },
+    {
+        "img": "https://avatar.iran.liara.run/public/2",
+        "id": "2",
+        "firstName": "سعید",
+        "lastName": "جعفری",
+        "position": "برنامه نویس",
+        "personalCode": "10555",
+        "location": "سعیدی - واحد دوم شمالی",
+        "tell": "2215"
+    },
+    {
+        "img": "https://avatar.iran.liara.run/public/3",
+        "id": "3",
+        "firstName": "رضا",
+        "lastName": "عباسی",
+        "position": "برنامه نویس",
+        "personalCode": "10666",
+        "location": "سعیدی - واحد دوم شمالی",
+        "tell": "2216"
+    },
+    {
+        "img": "https://avatar.iran.liara.run/public/4",
+        "id": "4",
+        "firstName": "مسیح",
+        "lastName": "بنی طبا",
+        "position": "طراح",
+        "personalCode": "10777",
+        "location": "سعیدی - واحد دوم شمالی",
+        "tell": "2217"
+    },
+    {
+        "img": "https://avatar.iran.liara.run/public/5",
+        "id": "5",
+        "firstName": "حامد",
+        "lastName": "بشارتی",
+        "position": "برنامه نویس",
+        "personalCode": "10888",
+        "location": "سعیدی - واحد دوم شمالی",
+        "tell": "2218"
+    },
+    {
+        "img": "https://avatar.iran.liara.run/public/6",
+        "id": "6",
+        "firstName": "بهنام",
+        "lastName": "صلواتی",
+        "position": "کارشناس فناوری اطلاعات",
+        "personalCode": "10999",
+        "location": "سعیدی - واحد دوم شمالی",
+        "tell": "2219"
+    },
+    { 
+        "img": "https://avatar.iran.liara.run/public/7",
+        "id": "7",
+        "firstName": "امین",
+        "lastName": "شمس",
+        "position": "کارشناس فناوری اطلاعات",
+        "personalCode": "10111",
+        "location": "سعیدی - واحد دوم شمالی",
+        "tell": "2220"
+    }
+  ]
 }
