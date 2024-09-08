@@ -217,7 +217,21 @@
     "title": "غذای روز",
     "description": "غذای سرو شده در روز پنجشنبه"
   }] , 
-"drink": []},
+"drink": [
+  {
+    "id": "1",
+    "title": "آب",
+    "description": "350 سی سی آب معدنی",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+  },
+  {
+    "id": "2",
+    "title": "نوشابه",
+    "description": "250 سی سی نوشابه",
+    "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+  }
+]},
 "7" : {"day": "7"  , "date": "2024-10-7" , "weekday":"جمعه", "isvacation": true ,   
 "selectedItem": {},              
 "dishes": [] , 
@@ -425,7 +439,21 @@
     "title": "غذای روز",
     "description": "غذای سرو شده در روز پنجشنبه"
   }
-] , "drink": []},
+] ,
+ "drink": [ 
+    {
+  "id": "1",
+  "title": "آب",
+  "description": "350 سی سی آب معدنی",
+  "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+},
+{
+  "id": "2",
+  "title": "نوشابه",
+  "description": "250 سی سی نوشابه",
+  "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+}]},
 "14" : {"day": "14"  , "date": "2024-10-14" , "weekday":"جمعه", "isvacation": true ,   
 "selectedItem": {},
               
@@ -648,7 +676,19 @@
     "title": "غذای روز",
     "description": "غذای سرو شده در روز پنجشنبه"
   }
-] , "drink": []},
+] , "drink": [   {
+  "id": "1",
+  "title": "آب",
+  "description": "350 سی سی آب معدنی",
+  "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+},
+{
+  "id": "2",
+  "title": "نوشابه",
+  "description": "250 سی سی نوشابه",
+  "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+}]},
 "21" : {"day": "21"  , "date": "2024-10-21" , "weekday":"جمعه", "isvacation": true ,   
 "selectedItem": {},     
 "dishes": [] , 
@@ -857,7 +897,19 @@
     "title": "غذای روز",
     "description": "غذای سرو شده در روز پنجشنبه"
   }
-] , "drink": []
+] , "drink": [   {
+  "id": "1",
+  "title": "آب",
+  "description": "350 سی سی آب معدنی",
+  "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/60fd13db1b284.jpg"
+
+},
+{
+  "id": "2",
+  "title": "نوشابه",
+  "description": "250 سی سی نوشابه",
+  "src":"https://api.snapp.market/media/cache/product-variation_image2/uploads/images/vendors/users/app/6321db1a8c897.jpg"
+}]
 },
 "28" : {"day": "28"  , "date": "2024-10-28" , "weekday":"جمعه", "isvacation": true ,
 "selectedItem": {},
@@ -2280,100 +2332,7 @@
         "location": "سعیدی - واحد دوم شمالی",
         "tell": "2220"
     }
-  ], 
-  "month": [
-    {
-       "id":"1",
-       "monthName": "فروردین",
-       "year": "1402" 
-    },
-    {
-        "id":"2",
-        "monthName": "اردیبهشت",
-        "year": "1402" 
-     },
-     {
-        "id":"3",
-        "monthName": "خرداد",
-        "year": "1402" 
-     },
-     {
-        "id":"4",
-        "monthName": "تیر",
-        "year": "1402" 
-     },
-     {
-        "id":"5",
-        "monthName": "مرداد",
-        "year": "1402" 
-     },
-     {
-        "id":"6",
-        "monthName": "شهریور",
-        "year": "1402" 
-     },
-     {
-        "id":"7",
-        "monthName": "مهر",
-        "year": "1402" 
-     },
-     {
-        "id":"8",
-        "monthName": "آبان",
-        "year": "1402" 
-     },
-     {
-        "id":"9",
-        "monthName": "آذر",
-        "year": "1402" 
-     },
-     {
-        "id":"10",
-        "monthName": "دی",
-        "year": "1402" 
-     },
-     {
-        "id":"11",
-        "monthName": "بهمن",
-        "year": "1402" 
-     },
-     {
-        "id":"12",
-        "monthName": "اسفند",
-        "year": "1402" 
-     },
-     {
-        "id":"13",
-        "monthName": "فروردین",
-        "year": "1403" 
-     },
-     {
-        "id":"14",
-        "monthName": "اردیبهشت",
-        "year": "1403" 
-     },
-     {
-        "id":"15",
-        "monthName": "خرداد",
-        "year": "1403" 
-     },
-     {
-        "id":"16",
-        "monthName": "تیر",
-        "year": "1403" 
-    },
-    {
-        "id":"17",
-        "monthName": "مرداد",
-        "year": "1403" 
-     },
-     {
-        "id":"18",
-        "monthName": "شهریور",
-        "year": "1403" 
-     }
-
-]
+  ]
 }
 
 
