@@ -2110,11 +2110,17 @@
   "dishes": [
     {
         "id": 1,
-        "name":"قرمه سبزی"
+        "name":"قرمه سبزی",
+        "description": "غذای مورد علاقه ایرانی ها",
+        "img": "https://cdn.snappfood.ir/641x641/cdn/28/00/9/product_image/zoodfood/656da198d1d9a.jpg"
+
     },
     {
         "id": 2,
-        "name":"چلو کباب"
+        "name":"چلو کباب",
+        "description": "سیخ 200 گرمی",
+        "img": "https://cdn.snappfood.ir/641x641/cdn/28/00/9/vendor/63e7873ada01d.jpeg"
+ 
     },
     {
         "id": 3,
@@ -4145,10 +4151,7 @@
         "chosenDish": "مرغ",
         "chosenDrink": "نوشابه"
     } 
-  ],
-  "company-zima":[
-    
-  ]   
+]
 }
 
 
