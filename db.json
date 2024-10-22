@@ -4197,7 +4197,7 @@
     "companies": [
       {
         "id": "1",
-        "img": "https://cdn.brandfetch.io/apple.com/w/400/h/400",
+        "companyLogo": "https://cdn.brandfetch.io/apple.com/w/400/h/400",
         "name": "کیمیا فرآوران زرین",
         "code": 12458,
         "type": "active",
@@ -4407,7 +4407,7 @@
       {
         "id": "2",
         "name": "پوریا زرکان",
-        "img": "https://cdn.brandfetch.io/amazon.com/w/400/h/400",
+        "companyLogo": "https://cdn.brandfetch.io/amazon.com/w/400/h/400",
         "code": 6666,
         "type": "active",
         "registerCode": 77777,
