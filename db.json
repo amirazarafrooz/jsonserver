@@ -4192,10 +4192,10 @@
           "name": "سعیدی-طبقه سه شمالی"
       }
   ],
-"companies": [
+  "companies": [
     {
       "id": "1",
-      "img": "https://cdn.brandfetch.io/apple.com/w/400/h/400",
+      "companyLogo": "https://sooj.mineholding.net/wp-content/uploads/2024/10/soojmiran-logo.webp",
       "name": "کیمیا فرآوران زرین",
       "code": 12458,
       "type": "active",
@@ -4694,7 +4694,7 @@
     {
       "id": "2",
       "name": "پوریا زرکان",
-      "img": "https://cdn.brandfetch.io/amazon.com/w/400/h/400",
+      "companyLogo": "https://carbon.mineholding.net/wp-content/uploads/2024/06/KCTmine-logo.webp",
       "code": 6666,
       "type": "active",
       "registerCode": 77777,
