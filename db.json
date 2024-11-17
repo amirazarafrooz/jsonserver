@@ -4151,7 +4151,7 @@
         "chosenDish": "مرغ",
         "chosenDrink": "نوشابه"
     } 
-],
+  ],
   "company": [
       {
           "id": "1",
@@ -5374,6 +5374,737 @@
     "movementTypeName": "خودکششی",
     "movementTypeId": 1,
     "capacity": 5
+    }
+  ],
+  "usersOffice": [
+    {
+      "id": 1,
+      "img": "https://avatar.iran.liara.run/public/41",
+      "fName": "امیرحسین",
+      "lName": "آذرافروز",
+      "nickName": "آذر",
+      "sexId": "1",
+      "sexName": "مرد",
+      "personeelCode": "10483",
+      "maritalStatusId": "2",
+      "maritalStatusName": "مجرد",
+      "numberOfChildren": "0",
+      "fatherName": "عباس",
+      "nationalCode": "0481071857",
+      "BirthCertificateCode": "0481071857",
+      "passportCode": "6548648",
+      "countryCode": "2",
+      "birthDate": "1379/12/25",
+      "birthPlace": "ورامین",
+      "phoneNumber": "09224865327",
+      "emailAddress": "amirhosseinazarafrooz@gmail.com",
+      "internalTell": "2214",
+      "companyId": "1",
+      "companyName": "ذوب روی",
+      "startWorkDate": "1403/05/06",
+      "finishWorkDate": "-",
+      "typeOfActivityId": "1",
+      "typeOfActivityName": "قراردادی",
+      "foodCompanyId": "1",
+      "foodCompanyName": "ذوب روی",
+      "locationBuildingId": "1",
+      "locationBuildingName": "سعیدی",
+      "locationBlockId": "2",
+      "locationBlockName": "بلوک 2",
+      "locationRoofId": "2",
+      "locationRoofName": "طبقه دوم",
+      "locationHalfRoofId": "0",
+      "locationHalfRoofName": "-",
+      "locationUnitId": "1",
+      "locationUnitName": "یک شمالی",
+      "statusId": "1",
+      "statusName": "فعال",
+      "importResourceId": "1",
+      "importResourceName": "کسرا"
+    },
+    {
+      "id": 2,
+      "img": "https://avatar.iran.liara.run/public/42",
+      "fName": "سعید",
+      "lName": "جعفری",
+      "nickName": "مستر هپی",
+      "sexId": "1",
+      "sexName": "مرد",
+      "personeelCode": "10859",
+      "maritalStatusId": "2",
+      "maritalStatusName": "مجرد",
+      "numberOfChildren": "0",
+      "fatherName": "محمد",
+      "nationalCode": "002984894",
+      "BirthCertificateCode": "0021071857",
+      "passportCode": "564787478",
+      "countryCode": "2",
+      "birthDate": "1379/12/25",
+      "birthPlace": "قیطریه",
+      "phoneNumber": "09368879988",
+      "emailAddress": "saeedjafari@gmail.com",
+      "internalTell": "2218",
+      "companyId": "1",
+      "companyName": "باما",
+      "startWorkDate": "1402/05/06",
+      "finishWorkDate": "-",
+      "typeOfActivityId": "1",
+      "typeOfActivityName": "قراردادی",
+      "foodCompanyId": "1",
+      "foodCompanyName": "باما",
+      "locationBuildingId": "1",
+      "locationBuildingName": "سعیدی",
+      "locationBlockId": "2",
+      "locationBlockName": "بلوک 2",
+      "locationRoofId": "2",
+      "locationRoofName": "طبقه دوم",
+      "locationHalfRoofId": "0",
+      "locationHalfRoofName": "-",
+      "locationUnitId": "1",
+      "locationUnitName": "یک شمالی",
+      "statusId": "1",
+      "statusName": "فعال",
+      "importResourceId": "1",
+      "importResourceName": "کسرا"
+    },
+    {
+      "id": 2,
+      "img": "https://avatar.iran.liara.run/public/43",
+      "fName": "رضا",
+      "lName": "عباسیان",
+      "nickName": "رئیس",
+      "sexId": "1",
+      "sexName": "مرد",
+      "personeelCode": "10841",
+      "maritalStatusId": "1",
+      "maritalStatusName": "متاهل",
+      "numberOfChildren": "1",
+      "fatherName": "محمد",
+      "nationalCode": "002898898",
+      "BirthCertificateCode": "002878787",
+      "passportCode": "56475478",
+      "countryCode": "2",
+      "birthDate": "1379/12/25",
+      "birthPlace": "تهران",
+      "phoneNumber": "09368879988",
+      "emailAddress": "saeedjafari@gmail.com",
+      "internalTell": "2218",
+      "companyId": "1",
+      "companyName": "باما",
+      "startWorkDate": "1402/05/06",
+      "finishWorkDate": "-",
+      "typeOfActivityId": "1",
+      "typeOfActivityName": "قراردادی",
+      "foodCompanyId": "1",
+      "foodCompanyName": "باما",
+      "locationBuildingId": "1",
+      "locationBuildingName": "سعیدی",
+      "locationBlockId": "2",
+      "locationBlockName": "بلوک 2",
+      "locationRoofId": "2",
+      "locationRoofName": "طبقه دوم",
+      "locationHalfRoofId": "0",
+      "locationHalfRoofName": "-",
+      "locationUnitId": "1",
+      "locationUnitName": "یک شمالی",
+      "statusId": "1",
+      "statusName": "فعال",
+      "importResourceId": "1",
+      "importResourceName": "کسرا"
+    }
+  ],
+  "positions": [
+    {
+      "id": 1,
+      "RoleTypeTitle": "تكنسين",
+      "RoleTitle": "مسئول دفتر"
+    },
+    {
+      "id": 2,
+      "RoleTypeTitle": "رئیس",
+      "RoleTitle": "رئیس حسابداری"
+    },
+    {
+      "id": 3,
+      "RoleTypeTitle": "رئیس",
+      "RoleTitle": "رئیس اداری"
+    },
+    {
+      "id": 4,
+      "RoleTypeTitle": "رئیس",
+      "RoleTitle": "رئیس فناوری اطلاعات"
+    },
+    {
+      "id": 5,
+      "RoleTypeTitle": "سرپرست",
+      "RoleTitle": "سرپرست برنامه ريزي منابع آب"
+    },
+    {
+      "id": 6,
+      "RoleTypeTitle": "سرپرست",
+      "RoleTitle": "سرپرست برنامه ریزی و کنترل پروژه"
+    },
+    {
+      "id": 7,
+      "RoleTypeTitle": "سرپرست",
+      "RoleTitle": "سرپرست تدارکات"
+    },
+    {
+      "id": 8,
+      "RoleTypeTitle": "سرپرست",
+      "RoleTitle": "سرپرست حراست"
+    },
+    {
+      "id": 9,
+      "RoleTypeTitle": "سرپرست",
+      "RoleTitle": "سرپرست دفتر فنی"
+    },
+    {
+      "id": 10,
+      "RoleTypeTitle": "سرپرست",
+      "RoleTitle": "سرپرست دفتر فنی"
+    },
+    {
+      "id": 11,
+      "RoleTypeTitle": "مدیر",
+      "RoleTitle": "مدیر مالی گروه"
+    },
+    {
+      "id": 12,
+      "RoleTypeTitle": "کارمند",
+      "RoleTitle": "کارمند اداری"
+    },
+    {
+      "id": 13,
+      "RoleTypeTitle": "کارمند",
+      "RoleTitle": "کارمند تدارکات"
+    },
+    {
+      "id": 110,
+      "RoleTypeTitle": "رئیس",
+      "RoleTitle": "رئیس مالی "
+    },
+    {
+      "id": 110,
+      "RoleTypeTitle": "",
+      "RoleTitle": "مدیراجرایی"
+    },
+    {
+      "id": 110,
+      "RoleTypeTitle": "",
+      "RoleTitle": "مدیراجرایی"
+    },
+    {
+      "id": 110,
+      "RoleTypeTitle": "",
+      "RoleTitle": "مدیر عاملی"
+    },
+    {
+      "id": 110,
+      "RoleTypeTitle": "",
+      "RoleTitle": "مدیر ای تی"
+    }
+  ],
+  "officeCompany": [
+    {
+      "id": 1,
+      "img": "https://robohash.org/zobroy",
+      "companyName": "ذوب روی",
+      "address": "تهران، جردن، خیابان عاطفی غربی؛ خیابان مهرداد، نبش خیابان سعیدی، پلاک 1",
+      "tel": "021-22334455",
+      "postalCode": "1234567890",
+      "companyOwnerName": "تابعه هلدینگ",
+      "companyOwnerId": "1",
+      "companyStatusName": "فعال",
+      "companyStatusId": 1,
+      "contactPerson": "رضا عباسیان"
+    },
+    {
+      "id": 2,
+      "img": "https://robohash.org/kanicarbon",
+      "companyName": "کانی کربن",
+      "address": "تهران، جردن، خیابان عاطفی غربی؛ خیابان مهرداد، نبش خیابان سعیدی، پلاک 1",
+      "tel": "021-88779988",
+      "postalCode": "4896184320",
+      "companyOwner": "تابعه هلدینگ",
+      "contactPerson": "سعید جعفری",
+      "companyStatus": "فعال"
+    },{
+      "id": 3,
+      "img": "https://robohash.org/jolge",
+      "companyName": "جلگه های آسمانی",
+      "address": "تهران، جردن، خیابان عاطفی غربی؛ خیابان مهرداد، نبش خیابان سعیدی، پلاک 1",
+      "tel": "021-88997744",
+      "postalCode": "123564590",
+      "companyOwner": "تابعه هلدینگ",
+      "contactPerson": "حامد بشارتی",
+      "companyStatus": "فعال"
+    },{
+      "id": 1,
+      "img": "https://robohash.org/bama",
+      "companyName": "باما",
+      "address": "تهران، جردن، خیابان عاطفی غربی؛ خیابان مهرداد، نبش خیابان سعیدی، پلاک 1",
+      "tel": "021-22334455",
+      "postalCode": "1234567890",
+      "companyOwner": "تابعه هلدینگ",
+      "contactPerson": "رضا عباسیان",
+      "companyStatus": "فعال"
+    }, {
+      "id": 1,
+      "img": "https://robohash.org/zob",
+      "companyName": "ذوب روی",
+      "address": "تهران، جردن، خیابان عاطفی غربی؛ خیابان مهرداد، نبش خیابان سعیدی، پلاک 1",
+      "tel": "021-22334455",
+      "postalCode": "1234567890",
+      "companyOwner": "تابعه هلدینگ",
+      "contactPerson": "رضا عباسیان",
+      "companyStatus": "فعال"
+    },
+    {
+      "id": 1,
+      "img": "https://robohash.org/zobroy",
+      "companyName": "ذوب روی",
+      "address": "تهران، جردن، خیابان عاطفی غربی؛ خیابان مهرداد، نبش خیابان سعیدی، پلاک 1",
+      "tel": "021-22334455",
+      "postalCode": "1234567890",
+      "companyOwner": "تابعه هلدینگ",
+      "contactPerson": "رضا عباسیان",
+      "companyStatus": "فعال"
+    },
+    {
+      "id": 2,
+      "img": "https://robohash.org/kanicarbon",
+      "companyName": "کانی کربن",
+      "address": "تهران، جردن، خیابان عاطفی غربی؛ خیابان مهرداد، نبش خیابان سعیدی، پلاک 1",
+      "tel": "021-88779988",
+      "postalCode": "4896184320",
+      "companyOwner": "تابعه هلدینگ",
+      "contactPerson": "سعید جعفری",
+      "companyStatus": "فعال"
+    },
+    {
+      "id": 3,
+      "img": "https://robohash.org/jolge",
+      "companyName": "جلگه های آسمانی",
+      "address": "تهران، جردن، خیابان عاطفی غربی؛ خیابان مهرداد، نبش خیابان سعیدی، پلاک 1",
+      "tel": "021-88997744",
+      "postalCode": "123564590",
+      "companyOwner": "تابعه هلدینگ",
+      "contactPerson": "حامد بشارتی",
+      "companyStatus": "فعال"
+    },
+    {
+      "id": 1,
+      "img": "https://robohash.org/bama",
+      "companyName": "باما",
+      "address": "تهران، جردن، خیابان عاطفی غربی؛ خیابان مهرداد، نبش خیابان سعیدی، پلاک 1",
+      "tel": "021-22334455",
+      "postalCode": "1234567890",
+      "companyOwner": "تابعه هلدینگ",
+      "contactPerson": "رضا عباسیان",
+      "companyStatus": "فعال"
+    }, 
+    {
+      "id": 1,
+      "img": "https://robohash.org/zob",
+      "companyName": "ذوب روی",
+      "address": "تهران، جردن، خیابان عاطفی غربی؛ خیابان مهرداد، نبش خیابان سعیدی، پلاک 1",
+      "tel": "021-22334455",
+      "postalCode": "1234567890",
+      "companyOwner": "تابعه هلدینگ",
+      "contactPerson": "رضا عباسیان",
+      "companyStatus": "فعال"
+    }
+   
+  ],
+  "links": [
+    {
+      "img": "https://robohash.org/zobroy",
+      "title": "بانک صادرات ایران",
+      "url":"bsi/pages/Home.aspx",
+      "cateogoryId": 1,
+      "categoryName": "لینک های پرکاربرد",
+      "description": "ورود مستقیم به سامانه اینترنت بانک، بانک صادرات ایران",
+      "palcementOrder": "1"
+    },
+    {
+      "img": "https://robohash.org/kanicarbon",
+      "title": "بانک ملی ایران",
+      "url":"bmi/pages/Home.aspx",
+      "cateogoryId": 1,
+      "categoryName": "لینک های پرکاربرد",
+      "description": "ورود مستقیم به سامانه اینترنت بانک، بانک ملی ایران",
+      "palcementOrder": "2"
+    },
+    {
+      "img": "https://robohash.org/jolge",
+      "title": "بانک کشاوری",
+      "url":"bk/pages/Home.aspx",
+      "cateogoryId": 1,
+      "categoryName": "لینک های پرکاربرد",
+      "description": "ورود مستقیم به سامانه اینترنت بانک، بانک کشاورزی",
+      "palcementOrder": "3"
+    }
+  ],
+  "announcements": [
+    {
+      "id": 1,
+      "title": "آغاز به کار آفیس جدید",
+      "description": "همکاران و دوستان عزیز، با خوشحالی به اطلاع شما می‌رسانم که پیشخوان کاربری جدید مجموعه ما اکنون در دسترس شماست. این پیشخوان با هدف بهبود تجربه کاری و افزایش کارآمدی، طراحی و پیاده‌سازی شده است. در این مسیر، از تکنولوژی‌های مدرن و نظرات ارزشمند شما بهره گرفته‌ایم تا محیطی پویا و کاربرپسند ایجاد کنیم. همانطور که همیشه به ارتقای کیفیت خدمات و تعاملات خود متعهد بوده‌ایم، امیدوارم این پیشخوان به شما در دسترسی سریع‌تر به اطلاعات، همکاری بهتر و انجام کارها با سهولت بیشتر کمک کند. لطفاً از این فرصت استفاده کنید تا امکانات جدید را بررسی کرده و بازخوردهای خود را با ما در میان بگذارید تا بتوانیم به بهبود و توسعه‌ی بیشتر بپردازیم. با تشکر از همراهی و تلاش‌های همیشگی شما. با آرزوی موفقیت‌های روزافزون،",
+      "date": "1403/08/22",
+      "announcementNumber": 1,
+      "author": "رضا طاهرخانی",
+      "status": "فعال"
+    },
+    {
+      "id": 2,
+      "title": "آغاز به کار آفیس جدید",
+      "description": "همکاران و دوستان عزیز، با خوشحالی به اطلاع شما می‌رسانم که پیشخوان کاربری جدید مجموعه ما اکنون در دسترس شماست. این پیشخوان با هدف بهبود تجربه کاری و افزایش کارآمدی، طراحی و پیاده‌سازی شده است. در این مسیر، از تکنولوژی‌های مدرن و نظرات ارزشمند شما بهره گرفته‌ایم تا محیطی پویا و کاربرپسند ایجاد کنیم. همانطور که همیشه به ارتقای کیفیت خدمات و تعاملات خود متعهد بوده‌ایم، امیدوارم این پیشخوان به شما در دسترسی سریع‌تر به اطلاعات، همکاری بهتر و انجام کارها با سهولت بیشتر کمک کند. لطفاً از این فرصت استفاده کنید تا امکانات جدید را بررسی کرده و بازخوردهای خود را با ما در میان بگذارید تا بتوانیم به بهبود و توسعه‌ی بیشتر بپردازیم. با تشکر از همراهی و تلاش‌های همیشگی شما. با آرزوی موفقیت‌های روزافزون،",
+      "date": "1403/08/22",
+      "announcementNumber": 1,
+      "author": "رضا طاهرخانی",
+      "status": "فعال"
+    },
+    {
+      "id": 3,
+      "title": "آغاز به کار آفیس جدید",
+      "description": "همکاران و دوستان عزیز، با خوشحالی به اطلاع شما می‌رسانم که پیشخوان کاربری جدید مجموعه ما اکنون در دسترس شماست. این پیشخوان با هدف بهبود تجربه کاری و افزایش کارآمدی، طراحی و پیاده‌سازی شده است. در این مسیر، از تکنولوژی‌های مدرن و نظرات ارزشمند شما بهره گرفته‌ایم تا محیطی پویا و کاربرپسند ایجاد کنیم. همانطور که همیشه به ارتقای کیفیت خدمات و تعاملات خود متعهد بوده‌ایم، امیدوارم این پیشخوان به شما در دسترسی سریع‌تر به اطلاعات، همکاری بهتر و انجام کارها با سهولت بیشتر کمک کند. لطفاً از این فرصت استفاده کنید تا امکانات جدید را بررسی کرده و بازخوردهای خود را با ما در میان بگذارید تا بتوانیم به بهبود و توسعه‌ی بیشتر بپردازیم. با تشکر از همراهی و تلاش‌های همیشگی شما. با آرزوی موفقیت‌های روزافزون،",
+      "date": "1403/08/22",
+      "announcementNumber": 1,
+      "author": "رضا طاهرخانی",
+      "status": "فعال"
+    },
+    {
+      "id": 4,
+      "title": "آغاز به کار آفیس جدید",
+      "description": "همکاران و دوستان عزیز، با خوشحالی به اطلاع شما می‌رسانم که پیشخوان کاربری جدید مجموعه ما اکنون در دسترس شماست. این پیشخوان با هدف بهبود تجربه کاری و افزایش کارآمدی، طراحی و پیاده‌سازی شده است. در این مسیر، از تکنولوژی‌های مدرن و نظرات ارزشمند شما بهره گرفته‌ایم تا محیطی پویا و کاربرپسند ایجاد کنیم. همانطور که همیشه به ارتقای کیفیت خدمات و تعاملات خود متعهد بوده‌ایم، امیدوارم این پیشخوان به شما در دسترسی سریع‌تر به اطلاعات، همکاری بهتر و انجام کارها با سهولت بیشتر کمک کند. لطفاً از این فرصت استفاده کنید تا امکانات جدید را بررسی کرده و بازخوردهای خود را با ما در میان بگذارید تا بتوانیم به بهبود و توسعه‌ی بیشتر بپردازیم. با تشکر از همراهی و تلاش‌های همیشگی شما. با آرزوی موفقیت‌های روزافزون،",
+      "date": "1403/08/22",
+      "announcementNumber": 1,
+      "author": "رضا طاهرخانی",
+      "status": "فعال"
+    }
+  ],
+  "announcementsAuthors" : [
+    {
+      "id": 1,
+      "name": "آقای طاهرخانی"
+    },
+    {
+      "id": 2,
+      "name": "آقای حسینی"
+    },
+    {
+      "id": 3,
+      "name": "آقای چهرآزاد"
+    },
+    {
+      "id": 4,
+      "name": "آقای دانشگر"
+    },
+    {
+      "id": 5,
+      "name": "آقای ودودی"
+    }
+
+
+  ],
+  "events": [
+    {
+      "id": 1,
+      "date": "1403/08/21",
+      "title": "برگزاری مراسم همکاران شایسته",
+      "description": "مراسم ساعت 15 در دفتر مدیریت عامل هلدینگ برگزار می‌گردد.",
+      "status": "رویداد"    
+    },
+    {
+      "id": 2,
+      "date": "1403/29/20",
+      "title": "برگزاری جشن آخر سال",
+      "description": "مراسم در ساعت 12 در طبقه دوم شمالی برگزار میگردد",
+      "status": "رویداد"    
+    },
+    {
+      "id": 3,
+      "date": "1403/09/29",
+      "title": "تقسیم ارزاق فصل پاییز",
+      "description": "هر طبقه تحویل خدمات میگردد",
+      "status": "رویداد"    
+    },
+    {
+      "id": 4,
+      "date": "1403/10/05",
+      "title": "روز بزرگداشت صنعت",
+      "description": "مراسم در ساعت 16 در طبقه دوم شمالی برگزار میگردد",
+      "status": "رویداد" 
+    }
+  ], 
+  "roles": [
+    {
+      "id":1,
+      "title": "سامانه ناهار",
+      "roleItems": [
+        {
+          "id": 1,
+          "title": "مدیرکل",
+          "description": "توضحیات نقش مدیر کل",
+          "status": "فعال"
+        },
+        {
+          "id": 2,
+          "title": "ادمین",
+          "description": "توضیحات نقش ادمین",
+          "status": "فعال"
+        },
+        {
+          "id": 3,
+          "title": "کاربر رده 1",
+          "description": "توضیحات نقش کاربر رده 1",
+          "status": "فعال"
+        },
+        {
+          "id": 4,
+          "title": "کاربر رده 2",
+          "description": "توضیحات نقش کاربر رده 2",
+          "status": "فعال"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "سامانه هواپیما",
+      "roleItems": [
+        {
+          "id": 1,
+          "title": "ادمین",
+          "description": "توضیحات نقش ادمین",
+          "status": "فعال"
+        },
+        {
+          "id": 2,
+          "title": "کاربر رده 1",
+          "description": "توضیحات نقش کاربر رده 1",
+          "status": "فعال"
+        },
+        {
+          "id": 3,
+          "title": "کاربر رده 2",
+          "description": "توضیحات نقش کاربر رده 2",
+          "status": "فعال"
+        }
+      ]
+    },
+    {
+      "id":3,
+      "title": "پنل کاربری",
+      "roleItems": [
+        {
+          "id": 1,
+          "title": "مدیرکل"  ,
+          "description": "توضیحات نقش مدیر کل",
+          "status": "فعال"
+        },
+        {
+          "id": 2,
+          "title": "ادمین"  ,
+          "description": "توضیحات نقش مدیر کل",
+          "status": "فعال"
+        },
+        {
+          "id": 3,
+          "title": "کاربر رده 1"  ,
+          "description": "توضیحات نقش مدیر کل",
+          "status": "فعال"
+        }
+      ]
+    },
+    {
+      "id":4,
+      "title": "سامانه زیما",
+      "roleItems": [
+        {
+          "id": 1,
+          "title": "مدیرکل"  ,
+          "description": "توضیحات نقش مدیر کل",
+          "status": "فعال"
+        },
+        {
+          "id": 2,
+          "title": "ادمین"  ,
+          "description": "توضیحات نقش ادمین",
+          "status": "فعال"
+        },
+        {
+          "id": 3,
+          "title": "کاربر رده 1"  ,
+          "description": "توضیحات نقش کاربر رده 1",
+          "status": "فعال"
+        },
+        {
+          "id": 4,
+          "title": "کارشناس معدن"  ,
+          "description": "توضیحات نقش کارشناس معدن",
+          "status": "فعال"
+        },
+        {
+          "id": 5,
+          "title": "کارشناس اکتشاف"  ,
+          "description": "توضیحات نقش کارشناس اکتشاف",
+          "status": "فعال"
+        }
+      ]
+    }
+  ],
+  "accessLevel": [
+    {
+      "id": 1,
+      "title": "سامانه ناهار",
+      "titleEn": "food",
+      "permissions": [
+        {
+          "id": 1,
+          "titleEn": "create-food",
+          "titleFa": "ساخت غذا"
+        },
+        {
+          "id": 2,
+          "titleEn": "update-food",
+          "titleFa": "ویرایش غذا"
+        },
+        {
+          "id": 3,
+          "titleEn": "delete-food",
+          "titleFa":"حذف غذا"
+        },
+        {
+          "id":4, 
+          "titleEn": "create-food-plan",
+          "titleFa": "ساخت منو"
+        },
+        {
+          "id":5, 
+          "titleEn": "edit-food-plan",
+          "titleFa": "ویرایش منو"
+        },
+        {
+          "id": 6, 
+          "titleEn": "order-lunch",
+          "titleFa": "سفارش ناهار"
+        },
+        {
+          "id": 7, 
+          "titleEn": "order-dinner",
+          "titleFa": "سفارش شام"
+        },
+        {
+          "id": 7, 
+          "titleEn": "edit-food-order",
+          "titleFa": "ویرایش سفارش غذا"
+        },
+        {
+          "id": 7, 
+          "titleEn": "edit-food-order",
+          "titleFa": "ویرایش سفارش غذا"
+        },
+        {
+          "id": 8,
+          "titleEn": "edit-others-food-order",
+          "titleFa": "ویرایش سفارش غذای دیگران"
+        },
+        {
+          "id": 9,
+          "titleEn": "order-food-after-deadline",
+          "titleFa": "سفارش غذا بعد از اتمام مهلت"
+        },
+        {
+          "id": 10,
+          "titleEn": "order-food-after-deadline",
+          "titleFa": "سفارش غذا بعد از اتمام مهلت"
+        },
+        {
+          "id": 11,
+          "titleEn": "order-extra-food",
+          "titleFa": "سفارش غذای اضافی"
+        },
+        {
+          "id": 12,
+          "titleEn": "confirm-extra-food",
+          "titleFa": "تایید غذای اضافی"
+        },
+        {
+          "id": 13,
+          "titleEn": "order-food-for-own-department",
+          "titleFa": "سفارش غذای برای دپارتمان خود"
+        },
+        {
+          "id": 14,
+          "titleEn": "order-food-for-building",
+          "titleFa": "سفارش غذا برای کارمندان ساختمان"
+        },
+        {
+          "id": 15,
+          "titleEn": "order-food-for-others",
+          "titleFa": "سفارش غذا برای دیگران"
+        },
+        {
+          "id": 16,
+          "titleEn": "get-report",
+          "titleFa": "دریافت گزارش"
+        },
+        {
+          "id": 17,
+          "titleEn": "create-resturant",
+          "titleFa": "تعریف رستوران"
+        },
+        {
+          "id": 18,
+          "titleEn": "create-building",
+          "titleFa": "تعریف ساختمان"
+        }
+      ]
+    },
+    { 
+      "id": 2,
+      "title": "سامانه هواپیما",
+      "titleEn": "planeSystem",
+      "permissions": [
+        {
+          "id": 1,
+          "titleEn": "buy-ticket",
+          "titleFa": "خرید بلیط"
+        },
+        {
+          "id": 2,
+          "titleEn": "delete-ticket",
+          "titleFa": "حذف بلیط"
+        },
+        {
+          "id": 3,
+          "titleEn": "update-ticket",
+          "titleFa":"ادیت بلیط"
+        }
+      ]
+    },
+    { 
+      "id": 3,
+      "title": "آفیس",
+      "titleEn": "office",
+      "permissions": [
+        {
+          "id": 1,
+          "titleEn": "add-employee",
+          "titleFa": "ایجاد کارمند"
+        },
+        {
+          "id": 2,
+          "titleEn": "delete-employee",
+          "titleFa": "حذف کارمند"
+        },
+        {
+          "id": 3,
+          "titleEn": "update-employee",
+          "titleFa":"ادیت کارمند"
+        }
+      ]
     }
   ]
 }
