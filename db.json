@@ -5329,6 +5329,52 @@
       "id": 2,
       "name": "دارای شاسی"
     }
+  ],
+  "machineList": [
+    {
+      "id": 1,
+      "name": "بولدوزر",
+    "brand": "CAT",
+    "companyName": "کیمیا فناوران",
+    "companyId": 1,
+    "location": "اصفهان",
+    "frameNo": 16458245,
+    "licensePlateNo": "ایران 99",
+    "chassisNo": 564854,
+    "engineTypeName": "بنزینی",
+    "engineTypeId": 1,
+    "machineTypeName": "سنگین",
+    "machineTypeId": 3,
+    "carUsageName": "بارکننده",
+    "carUsageId": 2,
+    "OperationTypeName": "اکتشاف",
+    "operationTypeId": 1,
+    "movementTypeName": "خودکششی",
+    "movementTypeId": 1,
+    "capacity": 5
+    },
+       {
+      "id": 2,
+      "name": "لیفتراک",
+    "brand": "CAT",
+    "companyName": "کیمیا فناوران",
+    "companyId": 1,
+    "location": "اردبیل",
+    "frameNo": 9889546,
+    "licensePlateNo": "ایران 55",
+    "chassisNo": 958841,
+    "engineTypeName": "گازوئیل",
+    "engineTypeId": 2,
+    "machineTypeName": "نیمه سنگین",
+    "machineTypeId": 2,
+    "carUsageName": "بارکننده",
+    "carUsageId": 2,
+    "OperationTypeName": "اکتشاف",
+    "operationTypeId": 1,
+    "movementTypeName": "خودکششی",
+    "movementTypeId": 1,
+    "capacity": 5
+    }
   ]
 }
 
