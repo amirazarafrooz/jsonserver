@@ -6111,24 +6111,54 @@
   ],
   "measurment": [
     {
+      "code": 86574,
       "id": 1,
       "metricUnitName": "میلی متر",
       "abbreviation": "mm"
     },
     {
+      "code": 849785,
       "id": 2,
       "metricUnitName": "سانتی متر",
       "abbreviation": "cm"
     },
     {
+      "code": 7854,
       "id": 3,
       "metricUnitName": "متر",
       "abbreviation": "m"
     },
     {
+      "code": 54485,
       "id": 4,
       "metricUnitName": "متر مربع",
       "abbreviation": "M^2"
+    }
+  ],
+  "analysiscomponent": [
+    {
+      "code": 74587,
+      "id": 1,
+      "analysisComponentName": "سرب کل",
+      "analysisComponentEnName": "Total Pb"
+    },
+    {
+      "code": 8758,
+      "id": 2,
+      "analysisComponentName": " اکسید سرب",
+      "analysisComponentEnName": "Pb Oxide"
+    },
+    {
+      "code": 4758,
+      "id": 3,
+      "analysisComponentName": " روی کل",
+      "analysisComponentEnName": "Total Zn"
+    },
+    {
+      "id": "352a",
+      "code": 5648,
+      "analysisComponentName": "اکسید روی",
+      "analysisComponentEnName": "Zn Oxide"
     }
   ]
 }
