@@ -5332,6 +5332,7 @@
   ],
   "machineList": [
     {
+      "code" : 87487,
       "id": 1,
       "name": "بولدوزر",
     "brand": "CAT",
@@ -5354,6 +5355,7 @@
     "capacity": 5
     },
        {
+        "code": 64564,
       "id": 2,
       "name": "لیفتراک",
     "brand": "CAT",
