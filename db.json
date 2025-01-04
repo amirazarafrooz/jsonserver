@@ -6160,6 +6160,404 @@
       "analysisComponentName": "اکسید روی",
       "analysisComponentEnName": "Zn Oxide"
     }
+  ],
+  "samplingtypes": [
+    {
+      "id": "1",
+      "code": 155,
+      "samplingMethod": "نمونه دسترسی استخراجی",
+      "sampleTypeName": "حجمی",
+      "sampleTypeId": "1",
+      "sampleMethodEn": "Extractive access example"
+    },
+    {
+      "id": "2",
+      "code": 245,
+      "samplingMethod": " نمونه پودری استخراج",
+      "sampleTypeId": 1,
+      "sampleTypeName": "خاک",
+      "sampleMethodEn": "Powdered sample extraction"
+    },
+    {
+      "id": "3e60",
+      "code": 5648,
+      "samplingMethod": "نمونه مغزه حفاری",
+      "sampleTypeId": "",
+      "sampleTypeName": "لب پر",
+      "sampleMethodEn": "Drilling core sample"
+    }
+  ],
+  "sampletype": [
+    {
+      "id": "1",
+      "name": "حجمی"
+    },
+    {
+      "id": "2",
+      "name": "خاک"
+    },
+    {
+      "id": "3",
+      "name": "لب پر"
+    },
+    {
+      "id": "4",
+      "name": "مغزه"
+    },
+    {
+      "id": "5",
+      "name": "شیاری"
+    }
+  ],
+  "mines": [
+    {
+      "id": "1",
+      "name": "ایرانکوه",
+      "companyName": "باما",
+      "mineLogo": "https://iranestekhdam.ir/storage/medias/2023-01-27/1674800201_هلدینگ-باما.jpg",
+      "code": 18964,
+      "CadastreCode": "32152152",
+      "discoveryCertificateIssuance": "",
+      "discoveryCertificateEndDate": "",
+      "operatingLicenseIssuance": "",
+      "operatingLicenseEndDate": "",
+      "isicCode": "8595",
+      "mineTypeId": "1",
+      "mineralTypeId": "2",
+      "mineGradeId": "2"
+    },
+    {
+      "id": "2",
+      "name": "باما",
+      "companyName": "باما",
+      "mineLogo": "https://iranestekhdam.ir/storage/medias/2023-01-27/1674800201_هلدینگ-باما.jpg"
+    },
+    {
+      "id": "99d6",
+      "code": 18964,
+      "companyName": "کیمیا فرآوران زرین",
+      "companyId": "1",
+      "name": "ایرانکوه ",
+      "CadastreCode": "84854854",
+      "isicCode": "548564584",
+      "mineTypeId": "1",
+      "mineTypeName": "روباز",
+      "mineralTypeId": "1",
+      "mineralTypeName": "سرب و روی",
+      "mineGradeId": "1",
+      "mineGradeName": "1",
+      "speceficGravity": "2",
+      "mineralGrade": "خالص",
+      "possibleReserve": "طلا",
+      "definiteReserve": "زغال سنگ",
+      "associatedElements": "کروم",
+      "disturbingElements": "کرومیت",
+      "mineProvince": "تهران",
+      "mineCity": "تهران",
+      "postalCode": "1234567899",
+      "tell": "021-55996688",
+      "address": "تهران - سعیدی",
+      "discoveryCertificateCode": "65458854",
+      "operatingLicenseCode": "6598589895",
+      "discoveryCertificateIssuance": "2008/12/02",
+      "discoveryCertificateEndDate": "2031/12/17",
+      "operatingLicenseIssuance": "2011/11/24",
+      "operatingLicenseEndDate": "2024/12/20"
+    }
+  ],
+  "mineTypes": [
+    {
+      "id": "1",
+      "name": "روباز"
+    },
+    {
+      "id": "2",
+      "name": "زیرزمینی"
+    },
+    {
+      "id": "3",
+      "name": "روباز و زیرزمینی"
+    }
+  ],
+  "mineralTypes": [
+    {
+      "id": "1",
+      "name": "سرب و روی"
+    },
+    {
+      "id": "2",
+      "name": "سرب"
+    },
+    {
+      "id": "3",
+      "name": "روی"
+    },
+    {
+      "id": "4",
+      "name": "مس و مولیبدن"
+    },
+    {
+      "id": "5",
+      "name": "مس"
+    },
+    {
+      "id": "6",
+      "name": "کرومیت"
+    },
+    {
+      "id": "7",
+      "name": "طلا"
+    },
+    {
+      "id": "8",
+      "name": "زغال سنگ"
+    },
+    {
+      "id": "9",
+      "name": "بوکسیت"
+    },
+    {
+      "id": "10",
+      "name": "سنگ تزئینی"
+    },
+    {
+      "id": "11",
+      "name": "فیروزه"
+    }
+  ],
+  "mineGrade": [
+    {
+      "id": "1",
+      "name": 1
+    },
+    {
+      "id": "2",
+      "name": 2
+    },
+    {
+      "id": "3",
+      "name": 3
+    },
+    {
+      "id": "4",
+      "name": 4
+    }
+  ],
+  "zonelist": [
+    {
+      "id": "1",
+      "zonelogo": "https://iranestekhdam.ir/storage/medias/2023-01-27/1674800201_هلدینگ-باما.jpg",
+      "zoneCode": "4578",
+      "name": "گوشفیل",
+      "companyName": "کیمیا فرآوران زرین",
+      "companyId": "1",
+      "mineName": "ایرانکوه",
+      "mineId": "99d6",
+      "typeOfMineral": "گالن",
+      "measurmentUnit": "درصد",
+      "area": "5000 کیلومتر"
+    },
+    {
+      "id": "546c",
+      "name": "گوشفیل ",
+      "zoneCode": "5479",
+      "mineId": "1",
+      "mineName": "ایرانکوه",
+      "companyName": "کیمیا فرآوران زرین",
+      "companyId": "1",
+      "typeOfMineralName": "سرب و روی",
+      "typeOfMineralId": "1",
+      "measurmentUnitName": "گرم در تن",
+      "measurmentUnitId": 2,
+      "mineralMaterialTonnage": "45485485",
+      "mineralCalibration": "655484",
+      "explorationOperationVolume": "6548580"
+    }
+  ],
+  "contractor": [
+    {
+      "id": "1",
+      "code": 56456,
+      "name": "پوریا زرکان",
+      "contractorType": "حقوقی",
+      "tell": "021-55996688",
+      "mobile": "09224865327",
+      "fax": "22222",
+      "finanvcialCode": "",
+      "nationalCode": "048107458",
+      "postalCode": "1111111111",
+      "address": "تهران - سعیدی",
+      "actionType": "زمین شناسی سطحی",
+      "contractorTypeName": "حقیقی",
+      "contractorTypeId": 1,
+      "actionTypeName": "فراوری",
+      "actionTypeId": "10"
+    },
+    {
+      "id": "2",
+      "code": "984",
+      "name": "کانی کربن ",
+      "contractorTypeName": "حقیقی",
+      "contractorTypeId": 1,
+      "tell": "021-55448866",
+      "mobile": "09224865327",
+      "fax": "carbon",
+      "finanvcialCode": "564894879",
+      "nationalCode": "",
+      "postalCode": "5748548484",
+      "address": "تهران - شهرری",
+      "actionTypeName": "ژئوفیزیک",
+      "actionTypeId": "3"
+    }
+  ],
+  "contractorActionTypes": [
+    {
+      "id": "1",
+      "name": "زمین شناسی سطحی"
+    },
+    {
+      "id": "2",
+      "name": "ژئوشیمی"
+    },
+    {
+      "id": "3",
+      "name": "ژئوفیزیک"
+    },
+    {
+      "id": "4",
+      "name": "نقشه برداری"
+    },
+    {
+      "id": "5",
+      "name": "جاده اکتشافی"
+    },
+    {
+      "id": "6",
+      "name": "تونل اکتشافی"
+    },
+    {
+      "id": "7",
+      "name": "نظارت اکتشافی"
+    },
+    {
+      "id": "8",
+      "name": "آنالیز شیمیایی"
+    },
+    {
+      "id": "9",
+      "name": "استخراج"
+    },
+    {
+      "id": "10",
+      "name": "فراوری"
+    },
+    {
+      "id": "11",
+      "name": "خدمات"
+    },
+    {
+      "id": "12",
+      "name": "حفاری اکتشافی"
+    },
+    {
+      "id": "13",
+      "name": "نگهداری و تعمیرات"
+    },
+    {
+      "id": "14",
+      "name": "عمرانی"
+    },
+    {
+      "id": "15",
+      "name": "حفاری استخراجی"
+    }
+  ],
+  "products": [
+    {
+      "id": "3f54",
+      "productName": "کنسانتره سولفید سرب",
+      "productEName": "Lead sulfide concentrate",
+      "companyName": "کیمیا فرآوران زرین",
+      "companyId": "1"
+    },
+    {
+      "id": "8z68",
+      "productName": "کنسانتره",
+      "productEName": "Lead sulfide concentrate",
+      "companyName": "کیمیا فرآوران زرین",
+      "companyId": "1"
+    }
+  ],
+  "customers": [
+    {
+      "id": "692e",
+      "customerName": "امیرحسین آذرافروز",
+      "nationalCode": "",
+      "economicCode": "0481071857",
+      "customerTypeName": "حقیقی",
+      "customerTypeId": 1,
+      "mobile": "09224865327",
+      "tell": "02188995577",
+      "address": "تهران - شهرری - میدان نماز",
+      "description": "هیچی",
+      "isActive": true
+    },
+    {
+      "id": "e174",
+      "customerName": "رضا عباسیان ",
+      "nationalCode": "",
+      "economicCode": "0481071857",
+      "customerTypeName": "حقوقی",
+      "customerTypeId": 2,
+      "mobile": "09128483270",
+      "tell": "02155996688",
+      "address": "تهران - سعیدی",
+      "description": "هیچی",
+      "isActive": true
+    },
+    {
+      "id": "68f9",
+      "customerName": "سجاد آذرافروز",
+      "nationalCode": "",
+      "economicCode": "6699885577",
+      "customerTypeName": "حقیقی",
+      "customerTypeId": 1,
+      "mobile": "09982211411",
+      "tell": "02155996688",
+      "address": "تهران شهرری",
+      "description": "هیچ",
+      "isActive": true
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "2c2a",
+      "supplierName": "امیر  حسین  آذرافروز",
+      "nationalCode": "0485484",
+      "economicCode": "01481074584",
+      "supplierTypeName": "حقوقی",
+      "supplierTypeId": 2,
+      "mobile": "09224865327",
+      "tell": "5644165156",
+      "address": "سشسیشس",
+      "description": "شسیشسی",
+      "isActive": true
+    }
+  ],
+  "weighing": [
+    {
+      "id": "dcf2",
+      "weighingName": "باسکول",
+      "isActive": true
+    },
+    {
+      "id": "b005",
+      "weighingName": "نوار نقاله",
+      "isActive": true
+    }
+  ],
+  "depot": [
+    
   ]
 }
 
