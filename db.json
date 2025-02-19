@@ -6797,6 +6797,92 @@
     "boreholeLoggerId": "9",
     "creator": "آذرافروز"
   }
+  ],
+  "drillingshiftreport": [
+    {
+      "id": "1",
+      "companyName": "کیمیا فرآوران زرین",
+      "companytId": "1",
+      "zoneName": "1",
+      "zoneId": "گوشفیل",
+      "contractorName": "عباسیان",
+      "contractorId": "1",
+      "supervisorName": "جعفری",
+      "supervisorId": "2",
+      "operationEndDate": "2025/01/23",
+      "operationEndTime": "2025/01/24",
+      "weatherName": "آفتابی",
+      "weatherId": "1",
+      "borholeId": "NZ-47",
+      "geographicalLocationX": "294276.79",
+      "geographicalLocationY": "3285959.606",
+      "geographicalLocationZ": "1358.522",
+      "azimuthAngle": "0",
+      "rigId": "2",
+      "drillingMachine": "D700",
+      "site": "NIYAZ",
+      "dip": "90",
+      "shiftName": "روز",
+      "shiftId": "1",
+      "technicianName": "امینی",
+      "technicianId": "18",
+      "rigCrewName": "عباسیان",
+      "rigCrewId": "1",
+      "shiftDrillerName": "جعفری",
+      "shiftDrillerId": "2"
+    }
+  ],
+  "geoPhysic": [
+    {
+      "id": 1,
+      "holeId": "H-ID-021",
+      "companyName": "کیمیا فرآوران زرین",
+      "companytId": "1",
+      "mineName":"ایرانکوه ",
+      "mineId": "1",
+      "zoneId": "1",
+      "zoneName": "گوشفیل",
+      "zoneArea": "1000",
+      "produceYear": "1403",
+      "producerName": "آذرافروز",
+      "producerId": "1",
+      "reportTypeName": "ژئو الکتریک (IP-RS)",
+      "reportTypeId": "1",
+      "dotsCount": "4",
+      "createdTime" : "2025/02/02"
+    }
+  ],
+  "geoChemistry": [
+    {
+      "id": 1,
+      "holeId": "H-ID-021",
+      "companyName": "کیمیا فرآوران زرین",
+      "companytId": "1",
+      "mineName":"ایرانکوه ",
+      "mineId": "1",
+      "zoneId": "1",
+      "zoneName": "گوشفیل",
+      "zoneArea": "1000",
+      "produceYear": "1403",
+      "producerName": "آذرافروز",
+      "producerId": "1",
+      "reportTypeName": "ژئو الکتریک (IP-RS)",
+      "reportTypeId": "1",
+      "dotsCount": "4",
+      "createdTime" : "2025/02/02"
+    }
+  ], 
+  "trench" : [ 
+    {
+      "id": 1,
+      "holeId": "H-ID-021",
+      "companyName": "کیمیا فرآوران زرین",
+      "companytId": "1",
+      "mineName":"ایرانکوه ",
+      "mineId": "1",
+      "zoneId": "1",
+      "zoneName": "گوشفیل"
+    }
   ]
 }
 
