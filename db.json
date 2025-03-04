@@ -4504,28 +4504,6 @@
         }
       ],
       "contractor": []
-    },
-    {
-      "id": "2",
-      "name": "پوریا زرکان",
-      "img": "https://cdn.brandfetch.io/amazon.com/w/400/h/400",
-      "code": 6666,
-      "type": "active",
-      "registerCode": 77777,
-      "EconomicCode": 88888,
-      "CEOName": "سعید جعفری",
-      "provinceName": "اصفهان",
-      "cityName": "اصفهان",
-      "postalCode": "6666666666",
-      "centeralOfficeAddress": "تهران - جردن - سعید - نبش مهرداد - پلاک 1",
-      "centralOfficeLocation": "تهران",
-      "mineLocation": "طبس",
-      "mineStatus": "تاسیس کارخانه",
-      "tel": "55664488",
-      "isActive": true,
-      "mines": [],
-      "personeel": [],
-      "contractor": []
     }
   ],
   "factories": [
