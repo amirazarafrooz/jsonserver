@@ -6350,7 +6350,20 @@
     }
   ],
   "depot": [
-    
+    {
+    "productName": "روی",
+    "productId": "2",
+    "companyName": "سرزمین جلگه های آسمانی",
+    "companyId": "1",
+    "stockPileName": "لورم",
+    "depotName": "لورم",
+    "productTypeName": "-",
+    "productTypeId": "-",
+    "location": "مشکین شهر",
+    "nickName": "-",
+    "description": "-",
+    "isActive": true
+  }
   ],
   "equipments": [
     {
