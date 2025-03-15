@@ -4198,7 +4198,8 @@
       "img": "https://cdn.brandfetch.io/apple.com/w/400/h/400",
       "name": "سرزمین جلگه های آسمانی",
       "code": "1",
-      "type": "active",
+      "typeName": "فعال",
+      "typeId": "1",
       "registerCode": 412744,
       "EconomicCode": 10320651140,
       "CEOName": "ابراهیم آقازاده",
@@ -4208,7 +4209,7 @@
       "centeralOfficeAddress": "استان تهران، شهرستان تهران، بخش مرکزی، شهر تهران، امانیه، خیابان شهیدفیض اله عاطفی، خیابان مهرداد، پلاک 1-، طبقه 1، واحد جنوبی",
       "centralOfficeLocation": "تهران",
       "mineLocation": "مشگین شهر",
-      "mineStatus": "تاسیس کارخانه",
+      "mineStatusName": "تاسیس کارخانه",
       "tel": "02191346057",
       "isActive": true,
       "mines": [],
@@ -4503,6 +4504,142 @@
           "internalTell": "2266"
         }
       ],
+      "contractor": [],
+      "shift": [
+       {
+        "shifts": [
+          {
+            "id": 1,
+            "shiftNum": 1,
+            "placeType" : "mine",
+            "title": "صبح",
+            "places": [
+              {
+                "name":"مجتمع 1",
+                "id": 1
+              },
+              {
+                "name":"مجتمع 2",
+                "id": 2
+              }
+            ],
+            "startTimeShift": "08:30",
+            "shiftDuration": "08:00"
+          },
+          {
+            "id":  2,
+            "shiftNum": 2,
+            "placeType" : "mine",
+            "title": "عصر",
+            "places": [
+              {
+                "name":"مجتمع 51",
+                "id": 1
+              },
+              {
+                "name":"مجتمع 2",
+                "id": 2
+              }
+            ],
+            "startTimeShift": "16:30",
+            "shiftDuration": "08:00"
+          },
+          {
+            "id" : 3,
+            "shiftNum": 3,
+            "placeType" : "mine",
+            "title": "شب",
+            "places": [
+              {
+                "name":"مجتمع 65",
+                "id": 1
+              },
+              {
+                "name":"مجتمع 2",
+                "id": 2
+              }
+            ],
+            "startTimeShift": "00:30",
+            "shiftDuration": "08:00"
+          },
+          {
+            "id": 5060,
+            "shiftNum": 1,
+            "placeType" : "factory",
+            "title": "صبح",
+            "places": [
+              {
+                "name":"مجتمع 8",
+                "id": 1
+              },
+              {
+                "name":"مجتمع 2",
+                "id": 2
+              }
+            ],
+            "startTimeShift": "08:30",
+            "shiftDuration": "08:00"
+          },
+          {
+            "id": 4899,
+            "shiftNum": 2,
+            "placeType" : "factory",
+            "title": "عصر",
+            "places": [
+              {
+                "name":"مجتمع 83",
+                "id": 1
+              },
+              {
+                "name":"مجتمع 2",
+                "id": 2
+              }
+            ],
+            "startTimeShift": "16:30",
+            "shiftDuration": "08:00"
+          },
+          {
+            "id": 8548,
+            "shiftNum": 3,
+            "placeType" : "factory",
+            "title": "شب",
+            "places": [
+              {
+                "name":"مجتمع 41 ",
+                "id": 1
+              },
+              {
+                "name":"مجتمع 2",
+                "id": 2
+              }
+            ],
+            "startTimeShift": "00:30",
+            "shiftDuration": "08:00"
+          }
+        ]
+       }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "پوریا زرکان",
+      "img": "https://cdn.brandfetch.io/amazon.com/w/400/h/400",
+      "code": 6666,
+      "type": "active",
+      "registerCode": 77777,
+      "EconomicCode": 88888,
+      "CEOName": "سعید جعفری",
+      "provinceName": "اصفهان",
+      "cityName": "اصفهان",
+      "postalCode": "6666666666",
+      "centeralOfficeAddress": "تهران - جردن - سعید - نبش مهرداد - پلاک 1",
+      "centralOfficeLocation": "تهران",
+      "mineLocation": "طبس",
+      "mineStatus": "تاسیس کارخانه",
+      "tel": "55664488",
+      "isActive": true,
+      "mines": [],
+      "personeel": [],
       "contractor": []
     }
   ],
@@ -5123,7 +5260,7 @@
       "name": "دارای شاسی"
     }
   ],
-  "machineList": [
+  "machinelist": [
     {
       "code" : 87487,
       "id": 1,
